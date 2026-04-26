@@ -1,0 +1,321 @@
+{
+    "module": "love",
+    "title": "Love Personality Test",
+    "subtitle": "Discover how you love, and how two loves interact",
+    "modes": {
+      "solo": {
+        "description": "One person answers questions and receives their love personality type",
+        "players": 1,
+        "name_fields": ["Your name"]
+      },
+      "duet": {
+        "description": "Two people each answer questions separately, then get a combined compatibility report",
+        "players": 2,
+        "name_fields": ["Partner 1 name", "Partner 2 name"],
+        "report_note": "Each person gets their own love type first, then a combined compatibility analysis is shown"
+      }
+    },
+    "scoring": {
+      "dimensions": [
+        {
+          "id": "AP",
+          "pole_a": { "letter": "A", "name": "Avoidant", "description": "Uncomfortable with too much closeness, values independence in love" },
+          "pole_b": { "letter": "P", "name": "Pursuer", "description": "Leans into closeness, seeks reassurance and deep bonding" }
+        },
+        {
+          "id": "LG",
+          "pole_a": { "letter": "L", "name": "Lover", "description": "Leads with emotion, vulnerability, and romantic expression" },
+          "pole_b": { "letter": "G", "name": "Guardian", "description": "Leads with protection, stability, and practical devotion" }
+        },
+        {
+          "id": "DW",
+          "pole_a": { "letter": "D", "name": "Depth-Seeker", "description": "Needs profound emotional intimacy and full transparency" },
+          "pole_b": { "letter": "W", "name": "Wonder-Keeper", "description": "Preserves mystery and individuality even within love" }
+        }
+      ],
+      "total_types": 8
+    },
+    "questions": [
+      { "id": "lq1", "dimension": "AP", "text": "I feel most loved when someone gives me space to be independent.", "pole_a_direction": true },
+      { "id": "lq2", "dimension": "AP", "text": "I worry when my partner does not respond to messages for a long time.", "pole_a_direction": false },
+      { "id": "lq3", "dimension": "AP", "text": "I need alone time to feel like myself even in a relationship.", "pole_a_direction": true },
+      { "id": "lq4", "dimension": "AP", "text": "Physical and emotional closeness makes me feel secure, not smothered.", "pole_a_direction": false },
+      { "id": "lq5", "dimension": "LG", "text": "I express love through words, vulnerability, and emotional openness.", "pole_a_direction": true },
+      { "id": "lq6", "dimension": "LG", "text": "I show love by taking care of practical things so my partner does not have to.", "pole_a_direction": false },
+      { "id": "lq7", "dimension": "LG", "text": "I fall in love with how someone makes me feel, not just what they do.", "pole_a_direction": true },
+      { "id": "lq8", "dimension": "LG", "text": "I feel most loving when I can protect someone from pain or stress.", "pole_a_direction": false },
+      { "id": "lq9", "dimension": "DW", "text": "I want my partner to know every part of me, even the ugly parts.", "pole_a_direction": true },
+      { "id": "lq10", "dimension": "DW", "text": "I believe keeping some mystery alive is healthy in a long relationship.", "pole_a_direction": false },
+      { "id": "lq11", "dimension": "DW", "text": "I feel most connected when we have talked about our deepest fears together.", "pole_a_direction": true },
+      { "id": "lq12", "dimension": "DW", "text": "I value having my own inner world that even my partner does not fully access.", "pole_a_direction": false },
+      { "id": "lq13", "dimension": "AP", "text": "I sometimes feel like relationships ask too much of me emotionally.", "pole_a_direction": true },
+      { "id": "lq14", "dimension": "LG", "text": "I remember small details about my partner and use them to make them feel seen.", "pole_a_direction": false },
+      { "id": "lq15", "dimension": "DW", "text": "I am not fully satisfied in a relationship unless we have discussed our pasts completely.", "pole_a_direction": true }
+    ],
+    "types": [
+      {
+        "code": "ALD",
+        "name": "The Romantic Lone Wolf",
+        "tagline": "Loves deeply from a careful distance",
+        "description": "You feel love intensely but you need space to process it on your own terms. You are emotionally expressive when you feel safe but fiercely independent when you do not. You are not cold, you are careful. The right person will feel like freedom, not a cage.",
+        "strengths": ["Emotionally authentic", "Independent and self-sufficient", "Loves without losing self", "Deeply loyal when committed"],
+        "challenges": ["Fear of engulfment", "Pulls away when things get intense", "Hard to read for partners", "Slow to fully commit"],
+        "love_language": "Quality time with clear personal space built in",
+        "needs_in_partner": [
+          "Someone emotionally secure and self-sufficient",
+          "A partner who respects space without taking it personally",
+          "Consistency without clinginess",
+          "Someone who sees independence as a strength, not a threat"
+        ],
+        "red_flags": [
+          "Partners who interpret every moment of distance as rejection",
+          "Someone who needs daily reassurance to feel loved",
+          "People who escalate emotionally when given space",
+          "Partners who view alone time as a sign something is wrong"
+        ],
+        "growth_edge": "Leaning into vulnerability instead of retreating when love grows",
+        "famous_archetype": "The artist who loves completely but cannot be owned",
+        "compatibility": {
+          "ALW": { "rating": 5, "summary": "Two independent people who respect each other's space, beautiful balance" },
+          "AGD": { "rating": 4, "summary": "The Guardian's stability helps the Lone Wolf feel safe enough to open" },
+          "PLW": { "rating": 3, "summary": "The Wonder-Keeper Pursuer gives enough space but may feel unseen over time" },
+          "PLD": { "rating": 2, "summary": "The Depth-Seeking Pursuer will feel the distance and spiral into anxiety" },
+          "PGD": { "rating": 3, "summary": "The protector grounds the Lone Wolf but may feel emotionally starved" },
+          "AGW": { "rating": 4, "summary": "Mutual independence with complementary love approaches, works well" },
+          "PGW": { "rating": 3, "summary": "The Keeper grounds without smothering, better than most Pursuer pairings" },
+          "ALD": { "rating": 2, "summary": "Two people who both pull back, can feel like emotional limbo" }
+        }
+      },
+      {
+        "code": "ALW",
+        "name": "The Free Romantic",
+        "tagline": "Love as poetry, mystery as oxygen",
+        "description": "You love with your whole heart but you keep something sacred for yourself. You believe in the magic of the unknown in love, the excitement of a partner who still surprises you. You are emotionally generous but you will never be fully possessed, and you would not want to be.",
+        "strengths": ["Keeps love feeling alive and mysterious", "Emotionally expressive", "Preserves individuality beautifully", "Makes partners feel constantly curious"],
+        "challenges": ["Can be hard to fully know", "Partner may feel held at arm's length", "Resists total vulnerability", "May romanticize over committing to reality"],
+        "love_language": "Words of affirmation and shared experiences that feel spontaneous",
+        "needs_in_partner": [
+          "Someone who finds mystery romantic rather than frustrating",
+          "A partner who does not equate openness with love",
+          "Someone with their own rich inner world",
+          "A person who enjoys the ongoing discovery of who you are"
+        ],
+        "red_flags": [
+          "Partners who demand full transparency as proof of love",
+          "Someone who sees withheld thoughts as dishonesty",
+          "People who push relentlessly for emotional access",
+          "Partners who feel threatened by anything kept private"
+        ],
+        "growth_edge": "Sharing the unpolished, uncertain parts of yourself",
+        "famous_archetype": "The muse who is loved completely but never fully understood",
+        "compatibility": {
+          "ALD": { "rating": 5, "summary": "Two independent romantics who honor each other's need for mystery" },
+          "PGD": { "rating": 3, "summary": "The protector loves the mystery but may eventually need more access" },
+          "PLW": { "rating": 4, "summary": "Two wonder-keepers, playful and alive, though both may resist going deeper" },
+          "PLD": { "rating": 2, "summary": "The Depth-Seeker will feel permanently locked out and grow frustrated" },
+          "AGD": { "rating": 3, "summary": "Interesting tension, the Guardian is drawn to what they cannot fully reach" },
+          "AGW": { "rating": 4, "summary": "Both value independence, a refreshingly non-suffocating pairing" },
+          "PGW": { "rating": 3, "summary": "The Wonder-Keeper protector respects the mystery, decent harmony" },
+          "ALW": { "rating": 3, "summary": "Two free romantics can be electrifying but also never quite landing" }
+        }
+      },
+      {
+        "code": "AGD",
+        "name": "The Steadfast Protector",
+        "tagline": "Love as a shelter you build every day",
+        "description": "You love through stability, protection, and complete dedication. You are not the one with grand romantic gestures, you are the one still there ten years later when everyone else has left. You need to know your person completely to feel truly bonded.",
+        "strengths": ["Unwavering reliability", "Creates profound emotional safety", "Loves for the long haul", "Deeply invested in partner's wellbeing"],
+        "challenges": ["Can be over-protective", "Struggles when partner needs space", "Emotional expression is reserved", "Depth-seeking can feel like interrogation"],
+        "love_language": "Acts of service and deep, unhurried conversations",
+        "needs_in_partner": [
+          "Someone who values consistency and dependability over excitement",
+          "A partner who communicates openly and welcomes deep conversation",
+          "Someone who does not mistake steadiness for lack of passion",
+          "A person who appreciates being truly known over time"
+        ],
+        "red_flags": [
+          "Partners who mistake reliability for boringness",
+          "Someone who needs constant novelty to feel attracted",
+          "People who pull away when offered genuine care",
+          "Partners who are emotionally guarded or dismissive of depth"
+        ],
+        "growth_edge": "Allowing your partner to protect you sometimes",
+        "famous_archetype": "The lighthouse, always there, never dramatic about it",
+        "compatibility": {
+          "PLD": { "rating": 5, "summary": "The Depth-Seeking Pursuer finds everything they need in the Steadfast Protector" },
+          "PLW": { "rating": 4, "summary": "The Pursuer-Lover finds stability and emotional safety here" },
+          "ALD": { "rating": 4, "summary": "The Lone Wolf finally feels safe enough to let someone in" },
+          "ALW": { "rating": 3, "summary": "The Protector is drawn to the mystery but may need more access eventually" },
+          "PGD": { "rating": 3, "summary": "Two protectors can feel more like business partners than lovers" },
+          "AGW": { "rating": 3, "summary": "Compatible on independence, but the depth-difference may create distance" },
+          "PGW": { "rating": 2, "summary": "Both protect but neither goes fully deep, something always feels missing" },
+          "AGD": { "rating": 2, "summary": "Two guardians who both wait for the other to open first, emotional stalemate" }
+        }
+      },
+      {
+        "code": "AGW",
+        "name": "The Silent Devotee",
+        "tagline": "Loves completely without saying much",
+        "description": "You are deeply devoted in a quiet way that the world does not always recognize as love. You show up consistently, protect fiercely, and need your own space to stay whole. You believe love does not need to be declared loudly to be real.",
+        "strengths": ["Consistent and grounding", "Respects partner's individuality", "Non-possessive but deeply loyal", "Creates peace in a relationship"],
+        "challenges": ["Difficult to read emotionally", "Partner may feel unloved without words", "Mystery can become emotional distance", "Slow to address relationship problems"],
+        "love_language": "Acts of service and comfortable shared silence",
+        "needs_in_partner": [
+          "Someone who reads actions as love without needing constant verbal affirmation",
+          "A partner who is secure enough not to interpret quiet as coldness",
+          "Someone who values presence over performance",
+          "A person comfortable with space and independence within the relationship"
+        ],
+        "red_flags": [
+          "Partners who need frequent emotional processing conversations to feel connected",
+          "Someone who interprets silence as indifference or withdrawal",
+          "People who require verbal reassurance to trust the relationship",
+          "Partners who escalate when their bids for closeness are met with quiet"
+        ],
+        "growth_edge": "Articulating love in words, even when it feels unnecessary",
+        "famous_archetype": "The quiet partner who has always been the answer",
+        "compatibility": {
+          "ALW": { "rating": 4, "summary": "Two independent wonder-keepers, peaceful and mutually respectful" },
+          "ALD": { "rating": 4, "summary": "The Lone Wolf appreciates the non-suffocating devotion" },
+          "PGW": { "rating": 3, "summary": "Compatible energy, both grounded, but emotional expression gap may grow" },
+          "PLW": { "rating": 3, "summary": "The Wonder-Keeper Pursuer adds warmth the Silent Devotee needs" },
+          "PLD": { "rating": 2, "summary": "The Depth-Seeker will feel emotionally starved in this pairing" },
+          "PGD": { "rating": 2, "summary": "The protective depth-seeker may feel blocked at every emotional door" },
+          "AGD": { "rating": 3, "summary": "Could work if one person learns to open more, requires active effort" },
+          "AGW": { "rating": 2, "summary": "Two silent devotees can love in complete parallel without ever meeting" }
+        }
+      },
+      {
+        "code": "PLD",
+        "name": "The Soul Searcher",
+        "tagline": "Looking for someone to know completely",
+        "description": "You love with a hunger for total intimacy. You want to know every layer, every wound, every dream. For you love without depth is just company. You give everything and you need everything in return. The right person will feel like finally being understood.",
+        "strengths": ["Creates extraordinary intimacy", "Completely devoted", "Emotionally fearless", "Transforms both people in the relationship"],
+        "challenges": ["Needs too much too soon for some", "Can be overwhelming in pursuit", "Devastated by emotional unavailability", "Difficulty with casual love"],
+        "love_language": "Quality time and deep conversation without time limits",
+        "needs_in_partner": [
+          "Someone who finds total vulnerability exciting rather than terrifying",
+          "A partner who matches emotional investment with emotional investment",
+          "Someone who actively shares their inner world, fears, and history",
+          "A person who sees deep intimacy as the point of love, not a side effect"
+        ],
+        "red_flags": [
+          "Partners who label deep emotional intimacy as neediness",
+          "Someone who deflects personal questions or keeps conversations surface-level",
+          "People who are emotionally unavailable but expect loyalty in return",
+          "Partners who pull away precisely when vulnerability is offered"
+        ],
+        "growth_edge": "Allowing love to develop at different speeds for different people",
+        "famous_archetype": "The one who loves you so completely it changes you permanently",
+        "compatibility": {
+          "AGD": { "rating": 5, "summary": "The Steadfast Protector is everything the Soul Searcher has been looking for" },
+          "PGD": { "rating": 4, "summary": "Two depth-seekers, intense and profound, must watch for codependency" },
+          "PLW": { "rating": 3, "summary": "The Wonder-Keeper will frustrate the Soul Searcher but also fascinate them" },
+          "PLD": { "rating": 4, "summary": "Mutual depth, risk of losing themselves in each other" },
+          "ALD": { "rating": 2, "summary": "The Lone Wolf's distance will feel like rejection to the Soul Searcher" },
+          "ALW": { "rating": 2, "summary": "The mystery will drive the Soul Searcher to anxious pursuit" },
+          "AGW": { "rating": 2, "summary": "The silence will feel like emotional abandonment over time" },
+          "PGW": { "rating": 3, "summary": "The protector grounds the Soul Searcher but may not go deep enough" }
+        }
+      },
+      {
+        "code": "PLW",
+        "name": "The Enchanting Pursuer",
+        "tagline": "Chasing connection, preserving the magic",
+        "description": "You want closeness but you know how to keep things alive. You pursue warmly and openly but you do not need to completely consume your partner. You are the romantic who writes love letters but also respects a closed door. The perfect balance of intensity and lightness.",
+        "strengths": ["Warmly expressive without being suffocating", "Keeps relationship feeling new", "Emotionally open and accessible", "Respects partner's inner world"],
+        "challenges": ["May avoid confronting deep problems", "Wonder-keeping can become avoidance", "Can seem inconsistent in emotional depth", "Relationship stays surface-level sometimes"],
+        "love_language": "Words of affirmation and spontaneous romantic gestures",
+        "needs_in_partner": [
+          "Someone who appreciates warmth and romantic gestures without requiring total vulnerability",
+          "A partner who can receive love openly without demanding excavation",
+          "Someone emotionally available but not emotionally consuming",
+          "A person who keeps their own sense of self alive within the relationship"
+        ],
+        "red_flags": [
+          "Partners who need crisis-level emotional processing on a regular basis",
+          "Someone who treats lightheartedness as emotional avoidance",
+          "People who push the relationship into heavy territory before it is ready",
+          "Partners who interpret warmth without full disclosure as a lack of trust"
+        ],
+        "growth_edge": "Going deeper when the relationship calls for it instead of keeping it light",
+        "famous_archetype": "The partner who makes everyday life feel like a romance novel",
+        "compatibility": {
+          "AGW": { "rating": 4, "summary": "The Silent Devotee provides grounding while the Pursuer provides warmth" },
+          "AGD": { "rating": 4, "summary": "The Protector's stability balances the Pursuer's romantic energy perfectly" },
+          "ALW": { "rating": 4, "summary": "Two wonder-keepers with warmth, light and alive" },
+          "PGW": { "rating": 3, "summary": "Both keep mystery but the Pursuer's warmth fills what the Guardian lacks" },
+          "PLD": { "rating": 3, "summary": "The Soul Searcher may push for more than the Wonder-Keeper wants to give" },
+          "PGD": { "rating": 3, "summary": "The protector's stability grounds the romantic pursuer well" },
+          "ALD": { "rating": 3, "summary": "The Lone Wolf will occasionally feel just enough pulled toward the warm Pursuer" },
+          "PLW": { "rating": 3, "summary": "Two romantic wonder-keepers, fun but may never go truly deep" }
+        }
+      },
+      {
+        "code": "PGD",
+        "name": "The Devoted Guardian",
+        "tagline": "I will protect you and I need to know everything",
+        "description": "You love by wrapping people in safety and demanding full access to their world. You are not controlling, you are deeply invested. You need to feel essential to your partner and you need to feel known. When both those needs are met, you are the most loyal force on earth.",
+        "strengths": ["Profoundly loyal", "Creates total emotional safety", "Protective and nurturing simultaneously", "Committed to understanding partner completely"],
+        "challenges": ["Can become possessive", "Depth-seeking feels invasive to some", "Pursuer energy can overwhelm avoidant types", "Struggles with emotional distance"],
+        "love_language": "Acts of service and long emotional conversations",
+        "needs_in_partner": [
+          "Someone who genuinely wants to be fully known and fully cared for",
+          "A partner who welcomes protection as an act of love, not control",
+          "Someone who communicates openly and invites emotional closeness",
+          "A person who allows themselves to be supported without pushing away"
+        ],
+        "red_flags": [
+          "Partners who interpret caring behavior as controlling or suffocating",
+          "Someone who withholds themselves emotionally while accepting protection",
+          "People who see the need for depth as intrusive rather than loving",
+          "Partners who use independence to avoid emotional accountability"
+        ],
+        "growth_edge": "Trusting that love can exist without complete transparency",
+        "famous_archetype": "The one who would walk through fire for you and just needs you to tell them how you are feeling",
+        "compatibility": {
+          "PLD": { "rating": 4, "summary": "Two depth-seekers who both want to be fully known, powerful and intense" },
+          "ALD": { "rating": 3, "summary": "The Lone Wolf benefits from the protection but may feel the pursuit as pressure" },
+          "PLW": { "rating": 3, "summary": "The Wonder-Keeper brings lightness the Devoted Guardian needs" },
+          "ALW": { "rating": 3, "summary": "The mystery is magnetic but the Guardian may eventually feel locked out" },
+          "AGD": { "rating": 3, "summary": "Two guardian depth-seekers, solid but may both wait to be pursued" },
+          "PGW": { "rating": 2, "summary": "Both protect but the depth difference creates a permanent gap" },
+          "AGW": { "rating": 2, "summary": "The silent devotee cannot give the depth the Devoted Guardian craves" },
+          "PGD": { "rating": 3, "summary": "Two devoted guardians, incredible safety, risk of over-merging" }
+        }
+      },
+      {
+        "code": "PGW",
+        "name": "The Tender Keeper",
+        "tagline": "Close enough to hold you, wise enough to let you be",
+        "description": "You are the rare type who can be warmly close without needing total access. You pursue with gentleness and protect without possessing. You love people for who they are, including the parts they keep private. You are the rarest kind of safe.",
+        "strengths": ["Warmth without intensity", "Protective without possessiveness", "Emotionally grounding", "Respects mystery and closeness simultaneously"],
+        "challenges": ["May avoid conflict by maintaining pleasant distance", "Wonder-keeping can leave partner feeling unseen", "Less likely to initiate deep emotional conversations", "Comfort can mask stagnation"],
+        "love_language": "Physical touch and comfortable shared presence",
+        "needs_in_partner": [
+          "Someone who wants warmth and protection without needing to be completely decoded",
+          "A partner who feels loved through presence and care, not just conversation",
+          "Someone who appreciates gentleness as a form of strength",
+          "A person who does not mistake emotional ease for emotional shallowness"
+        ],
+        "red_flags": [
+          "Partners who interpret gentleness as a lack of passion or drive",
+          "Someone who needs intensity or emotional urgency to feel loved",
+          "People who push aggressively for deep emotional disclosure before trust is built",
+          "Partners who confuse peacefulness with avoidance"
+        ],
+        "growth_edge": "Initiating depth, not just holding space for it",
+        "famous_archetype": "The partner who somehow always knew exactly what you needed without asking",
+        "compatibility": {
+          "PLW": { "rating": 4, "summary": "The romantic pursuer brings passion, the tender keeper brings grounding" },
+          "ALD": { "rating": 4, "summary": "The Lone Wolf feels safe enough to come close without feeling trapped" },
+          "ALW": { "rating": 3, "summary": "Two wonder-keepers, comfortable but may never reach true intimacy" },
+          "AGW": { "rating": 3, "summary": "Peaceful and respectful but may become more roommates than lovers" },
+          "PLD": { "rating": 3, "summary": "The Soul Searcher needs more than the Tender Keeper naturally offers" },
+          "PGD": { "rating": 2, "summary": "The Devoted Guardian needs depth the Tender Keeper tends to avoid" },
+          "AGD": { "rating": 3, "summary": "The Steadfast Protector adds depth that completes the Tender Keeper" },
+          "PGW": { "rating": 3, "summary": "Two tender keepers, warm and comfortable, but growth requires pushing boundaries" }
+        }
+      }
+    ]
+  }

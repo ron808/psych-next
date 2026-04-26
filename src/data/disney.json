@@ -1,0 +1,1127 @@
+{
+  "module": "disney",
+  "title": "Which Disney Character Are You?",
+  "subtitle": "Your personality, your story",
+  "description": "Every Disney story begins with a soul who dares to ask 'what if?' — some chase the horizon, others guard what they love, and a few quietly remake the world. Answer 15 questions about how you explore, feel, and commit, and discover which iconic Disney character shares your spirit.",
+  "scoring": {
+    "dimensions": [
+      {
+        "id": "WD",
+        "pole_a": {
+          "letter": "W",
+          "name": "Adventurous",
+          "description": "You are a Wanderer at heart — drawn to the unknown, energized by new experiences, and restless whenever life feels too predictable. You find yourself most alive when crossing into unfamiliar territory."
+        },
+        "pole_b": {
+          "letter": "D",
+          "name": "Driven",
+          "description": "You are Driven and purposeful — you know what you want and you build toward it with focus. You find deep meaning in mastering your craft and creating something lasting in the world you already inhabit."
+        }
+      },
+      {
+        "id": "HM",
+        "pole_a": {
+          "letter": "H",
+          "name": "Heart",
+          "description": "You lead with your Heart — empathy, passion, and emotional truth guide your choices. You feel things deeply, connect with people instinctively, and believe love is the most powerful force in any story."
+        },
+        "pole_b": {
+          "letter": "M",
+          "name": "Mind",
+          "description": "You lead with your Mind — strategy, logic, and careful analysis sharpen your decisions. You trust patterns over impulses, and your greatest strength is seeing clearly when emotions cloud everyone else's vision."
+        }
+      },
+      {
+        "id": "BF",
+        "pole_a": {
+          "letter": "B",
+          "name": "Devoted",
+          "description": "You are Devoted — loyalty, duty, and protecting the people you love define you. You keep your promises even when it costs you, and you'd rather carry the weight of the world than let someone you care about fall."
+        },
+        "pole_b": {
+          "letter": "F",
+          "name": "Free Spirit",
+          "description": "You are a Free Spirit — you question rules that don't make sense, carve your own path, and refuse to let tradition cage what you could become. Your independence isn't selfishness; it's the courage to be honest about who you are."
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "You feel most alive when you're somewhere completely unfamiliar.",
+      "dimension": "WD",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q2",
+      "text": "When you imagine your perfect future, it involves places and experiences you haven't discovered yet.",
+      "dimension": "WD",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q3",
+      "text": "Routine feels more like a cage than a comfort.",
+      "dimension": "WD",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q4",
+      "text": "You'd rather take a detour through the unknown than a shortcut through familiar ground.",
+      "dimension": "WD",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q5",
+      "text": "The question 'what's out there?' pulls at you more than 'what can I build here?'",
+      "dimension": "WD",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q6",
+      "text": "You make your biggest decisions by trusting what you feel, not what you think.",
+      "dimension": "HM",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q7",
+      "text": "When a friend is hurting, your first instinct is to comfort them — not to solve the problem.",
+      "dimension": "HM",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q8",
+      "text": "You have cried during a movie or song in the past year.",
+      "dimension": "HM",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q9",
+      "text": "Love — romantic, familial, or friendly — is the thing you'd sacrifice the most for.",
+      "dimension": "HM",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q10",
+      "text": "You trust your gut over a spreadsheet when making a hard call.",
+      "dimension": "HM",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q11",
+      "text": "You'd rather let down yourself than let down someone who is counting on you.",
+      "dimension": "BF",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q12",
+      "text": "If a rule is unfair, you follow it anyway out of respect for others who expect it.",
+      "dimension": "BF",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q13",
+      "text": "Your sense of identity is deeply tied to the people and place you belong to.",
+      "dimension": "BF",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q14",
+      "text": "You feel a strong pull to protect and take care of those around you, even at personal cost.",
+      "dimension": "BF",
+      "pole_a_direction": true
+    },
+    {
+      "id": "q15",
+      "text": "Keeping a promise matters more to you than changing your mind when it would benefit you.",
+      "dimension": "BF",
+      "pole_a_direction": true
+    }
+  ],
+  "types": [
+    {
+      "code": "ARIEL",
+      "name": "Ariel",
+      "movie": "The Little Mermaid",
+      "gender": "female",
+      "tagline": "The world up there is calling — and you've always known you'd answer.",
+      "description": "You are Ariel: endlessly curious, bursting with wonder, and absolutely certain that the life you were born into is not the whole story. You collect experiences, ideas, and passions the way others collect safety — not carelessly, but because you feel the pull of possibility so deeply that staying still feels like a slow disappearance. You lead with your heart on every front: you fall hard, love fully, and feel the weight of beauty in things others walk past without noticing. You're not reckless — you're alive in a way that makes recklessness look like the only honest option. Your independence sometimes costs you, but the world you discover on the other side of the leap is always worth it.",
+      "strengths": [
+        "Insatiable curiosity that opens doors others don't even see",
+        "Deep emotional capacity — you love with your whole self",
+        "Infectious enthusiasm that draws people into your world",
+        "Courage to pursue a dream even when everyone calls it impossible"
+      ],
+      "weaknesses": [
+        "Can be impulsive — the heart moves before the mind catches up",
+        "Prone to idealizing what you don't yet have",
+        "May underestimate what you're leaving behind in the rush forward",
+        "Vulnerability to being taken advantage of when your trust is full"
+      ],
+      "quote": "I've got gadgets and gizmos aplenty — I want more.",
+      "power": "Wonder without apology — the ability to find magic in everything the world has to offer.",
+      "sidekick": "Flounder & Sebastian",
+      "thrives_when": [
+        "Exploring somewhere genuinely new — physically, intellectually, or creatively",
+        "Given the freedom to follow a passion all the way to its edge",
+        "Surrounded by people who celebrate rather than contain your enthusiasm"
+      ],
+      "struggles_when": [
+        "Forced into routines that offer no room for discovery",
+        "Made to choose between a dream and the people you love",
+        "Your curiosity is dismissed as naivety or irresponsibility"
+      ],
+      "famous_people": ["Billie Eilish", "Lady Gaga", "Zendaya"],
+      "profile": [5, 5, 5, 4, 5, 5, 5, 5, 4, 5, 1, 1, 1, 2, 1],
+      "reasons": {
+        "perfect": "At 90%+, you and Ariel are practically the same soul — restless, wonder-struck, and utterly unafraid to want more than the world handed you. You've felt that pull toward something just out of reach and chosen it anyway.",
+        "high": "At 60–89%, you share Ariel's burning curiosity and emotional courage. You've chased your own version of 'the surface' and felt the thrill of arriving somewhere new — even if your wandering has limits hers didn't.",
+        "mid": "At 30–59%, you have glimpses of Ariel's wonder — moments when something new electrifies you — but your roots run deeper or your caution runs stronger. You admire the leap more than you take it.",
+        "low": "Below 30%, you and Ariel are worlds apart — literally. Where she swims toward the unknown without a second thought, you tend to find meaning in what's already yours. That's not a lesser story; it's a different one entirely."
+      }
+    },
+    {
+      "code": "BELLE",
+      "name": "Belle",
+      "movie": "Beauty and the Beast",
+      "gender": "female",
+      "tagline": "You've always known there's more to the story — and to the person standing in front of you.",
+      "description": "You are Belle: a dreamer with both feet on the ground, a reader of people as much as books, and someone who has always sensed that the world is bigger and stranger and more wonderful than the village around you admits. Your curiosity is intellectual as much as geographic — you want to understand things, not just experience them. You're warm and compassionate, but your loyalty is earned, not given freely: you see past surfaces because you insist on the truth underneath. You're principled in a way that can look like stubbornness, but it's really integrity. When you love, you love wisely and wholeheartedly — and you have a remarkable gift for finding the beauty in what everyone else has written off.",
+      "strengths": [
+        "Intellectual depth and genuine love of learning",
+        "Exceptional empathy — you see who people really are, not who they perform as",
+        "Quiet courage that doesn't announce itself but never wavers",
+        "Loyalty that's meaningful precisely because it's chosen, not automatic"
+      ],
+      "weaknesses": [
+        "Can be so invested in seeing the best in someone that you overlook red flags",
+        "Your independence can read as aloofness to people who don't know you well",
+        "Sometimes carries the emotional weight of others at the expense of your own needs",
+        "Idealism can clash painfully with a world that rewards conformity"
+      ],
+      "quote": "I want adventure in the great wide somewhere — I want it more than I can tell.",
+      "power": "The ability to love what the world has given up on — and be right about it.",
+      "sidekick": "Lumière & Cogsworth",
+      "thrives_when": [
+        "Surrounded by books, ideas, and people who take conversation seriously",
+        "Given a complex problem — or person — to truly understand",
+        "Trusted to make her own choices without having to justify them constantly"
+      ],
+      "struggles_when": [
+        "Pressured to conform to expectations she's already outgrown",
+        "Her depth is mistaken for being difficult or 'too much'",
+        "Trapped in a situation with no room for growth or discovery"
+      ],
+      "famous_people": ["Emma Watson", "Malala Yousafzai", "Audrey Hepburn"],
+      "profile": [4, 3, 4, 3, 4, 4, 4, 3, 4, 3, 4, 3, 3, 4, 4],
+      "reasons": {
+        "perfect": "At 90%+, you and Belle are cut from the same cloth — intellectually hungry, emotionally perceptive, and quietly brave. You've both felt like the odd one out in a room that didn't know what to do with someone like you.",
+        "high": "At 60–89%, you share Belle's combination of curiosity and warmth. You're the person in the room who actually listens, and you've learned to look past first impressions in ways most people never bother to.",
+        "mid": "At 30–59%, you connect with parts of Belle's story — maybe her love of ideas, or her loyalty — but your adventure-seeking or emotional style takes you in a different direction.",
+        "low": "Below 30%, Belle's careful, book-first approach to the world is far from your instinct. You might act where she'd read, feel your way where she'd reason, or belong easily in spaces where she always felt like an outsider."
+      }
+    },
+    {
+      "code": "ELSA",
+      "name": "Elsa",
+      "movie": "Frozen",
+      "gender": "female",
+      "tagline": "You've spent so long being careful — now imagine what you could do if you let go.",
+      "description": "You are Elsa: brilliant, controlled, and carrying more than anyone around you knows. You are not cold — you are precise. You've learned to think before you act because you've seen what happens when you don't, and that lesson lives in you like a second spine. You are deeply independent, not by preference but by necessity: you learned early that closeness carries risk, and you've built beautiful walls to protect everyone, including yourself. Your mind is your greatest tool — you plan, analyze, and solve, often alone and often brilliantly. Your growth isn't about learning to want less; it's about learning that you don't have to protect yourself from love in order to protect the people you love.",
+      "strengths": [
+        "Extraordinary self-discipline and mental clarity under pressure",
+        "Analytical precision — you see consequences others miss entirely",
+        "Immense power held with careful, deliberate responsibility",
+        "Capacity for breathtaking transformation once you allow it"
+      ],
+      "weaknesses": [
+        "Isolation as a coping mechanism — connection feels like exposure",
+        "Fear of your own power can become its own kind of limitation",
+        "Tendency to shut people out rather than risk being truly seen",
+        "Can mistake emotional distance for strength"
+      ],
+      "quote": "Let it go — the cold never bothered me anyway.",
+      "power": "The ability to create something extraordinary from within yourself, entirely on your own terms.",
+      "sidekick": "Olaf",
+      "thrives_when": [
+        "Given space and autonomy to work without constant scrutiny",
+        "In an environment that accepts rather than fears her whole self",
+        "When she chooses connection rather than having it thrust upon her"
+      ],
+      "struggles_when": [
+        "Expected to perform normalcy she doesn't feel",
+        "Her caution is mistaken for indifference toward those she loves",
+        "Forced to move fast when her nature demands careful deliberation"
+      ],
+      "famous_people": ["Cate Blanchett", "Tilda Swinton", "Adele"],
+      "profile": [2, 2, 1, 2, 2, 3, 3, 2, 3, 2, 2, 1, 2, 1, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Elsa are profoundly alike — self-contained, acutely aware, and carrying a power that the world hasn't always made easy. You know what it is to hold yourself back, and you know the earthquake of finally letting go.",
+        "high": "At 60–89%, you share Elsa's tendency toward independence and her careful, analytical approach to a world that doesn't always understand her. You've built your own ice palace in some corner of your life.",
+        "mid": "At 30–59%, you recognize Elsa in yourself in flashes — the moment of pulling back when you wanted to reach out, or the relief of a space entirely your own — but your story runs warmer or more outwardly social.",
+        "low": "Below 30%, Elsa's guarded, solitary world is far from yours. You lead with connection where she leads with caution, and your first instinct when things get hard is probably to reach out rather than build a wall."
+      }
+    },
+    {
+      "code": "ANNA",
+      "name": "Anna",
+      "movie": "Frozen",
+      "gender": "female",
+      "tagline": "Love first, questions later — and somehow it always works out.",
+      "description": "You are Anna: the person who knocks anyway, who tries again, who never quite manages to give up on someone even when every sensible voice says you should. You are warm in the way that costs something — real warmth, not performance — and you lead with your heart so completely that your mind sometimes has to run to catch up. You're brave in the stumbling, imperfect way that's actually the hardest kind to be. You don't have a plan; you have a direction, and that direction is always toward the people you love. Your optimism is not naivety; it's a decision. You've seen enough to know things go wrong, and you choose hope anyway, every single time.",
+      "strengths": [
+        "Relentless warmth and emotional generosity that defies circumstance",
+        "Courage that doesn't wait for confidence — you act first and figure it out",
+        "Fierce, unconditional loyalty to the people she loves",
+        "Infectious joy that genuinely lifts the people around her"
+      ],
+      "weaknesses": [
+        "Trusts too fast — the heart opens before due diligence is done",
+        "Can be so focused on saving someone that she misses what she needs herself",
+        "Impulsiveness occasionally trades one problem for three new ones",
+        "Vulnerability to heartbreak, because she never holds anything back"
+      ],
+      "quote": "You can't marry a man you just met — but I'm going to save my sister anyway.",
+      "power": "Love as an act of will — choosing people not because it's easy but because it matters.",
+      "sidekick": "Sven",
+      "thrives_when": [
+        "Surrounded by people she can love openly without apology",
+        "On an adventure, even a chaotic one, with someone she trusts",
+        "When her optimism is met with even a fraction of what she gives"
+      ],
+      "struggles_when": [
+        "Her openness is weaponized by people who don't deserve it",
+        "Facing a problem that love alone genuinely cannot fix",
+        "Isolated from the people who make her feel like herself"
+      ],
+      "famous_people": ["Taylor Swift", "Jennifer Lawrence", "Lizzo"],
+      "profile": [4, 4, 5, 4, 4, 5, 5, 5, 5, 4, 5, 4, 5, 5, 5],
+      "reasons": {
+        "perfect": "At 90%+, you and Anna are practically twins — you know what it is to throw yourself at someone or something with your whole heart and call it a strategy. The leap of faith isn't scary to you; staying back is.",
+        "high": "At 60–89%, you share Anna's warmth and her courage to love out loud. You've got her optimism in your bones and her loyalty in your choices, even if you bring a little more strategy to the chaos.",
+        "mid": "At 30–59%, you've got Anna's spirit in moments — when love unlocks something fearless in you — but your day-to-day runs cooler or more deliberate than her heart-first sprint through every crisis.",
+        "low": "Below 30%, Anna's full-throttle emotional world is genuinely a different frequency than yours. You admire the love and laugh at the chaos, but you tend to think a step before you leap."
+      }
+    },
+    {
+      "code": "MOANA",
+      "name": "Moana",
+      "movie": "Moana",
+      "gender": "female",
+      "tagline": "The ocean chose you — because it recognized something you already knew.",
+      "description": "You are Moana: someone who belongs somewhere and still hears a different call. You are not running from your home or your people — you carry them with you, and that love is the engine of everything you do. You are adventurous and emotionally alive, but you're also purposeful: you don't wander for the sake of wandering. You go because something important needs doing, and you are the one willing to do it. You have a relationship with instinct that borders on the spiritual — you trust what pulls at you even when you can't explain it, and that trust has never been entirely wrong. Your courage is earned, not inherited: you've doubted yourself, and you've kept going anyway.",
+      "strengths": [
+        "Deep emotional intelligence grounded in something larger than herself",
+        "Extraordinary determination — she finds a way even when the way disappears",
+        "Authentic sense of identity that bends but never breaks under pressure",
+        "Ability to connect with others — human or otherwise — at a soul level"
+      ],
+      "weaknesses": [
+        "Torn between the life she loves and the life she's called to — rarely fully at peace",
+        "Can take the weight of the world onto herself when it isn't hers to carry alone",
+        "The call of the ocean can make it hard to be fully present where she is",
+        "Stubbornness that can look like clarity and cost her important input"
+      ],
+      "quote": "The ocean chose me for a reason.",
+      "power": "Wayfinding — the deep, quiet knowing that points you true even in the dark.",
+      "sidekick": "Hei Hei",
+      "thrives_when": [
+        "Moving toward something that genuinely matters — a mission, not just a journey",
+        "Connected to the natural world and her own spiritual instincts",
+        "Trusted to lead, even when the path isn't fully mapped yet"
+      ],
+      "struggles_when": [
+        "Forced to stay still when she knows something needs to change",
+        "Her purpose and her people seem to want opposite things",
+        "She loses trust in the instinct that has always guided her"
+      ],
+      "famous_people": ["Malala Yousafzai", "Simone Biles", "Greta Thunberg"],
+      "profile": [5, 5, 5, 5, 4, 5, 4, 5, 4, 5, 3, 3, 4, 3, 4],
+      "reasons": {
+        "perfect": "At 90%+, you and Moana share the same soul-deep calling — you feel the pull of something beyond the reef and you've never been able to fully ignore it. Your love and your purpose live in the same direction.",
+        "high": "At 60–89%, you share Moana's blend of heart and horizon. You're not just an adventurer — your adventures mean something. You go places for reasons, and you feel the weight of the people you carry with you.",
+        "mid": "At 30–59%, Moana's call resonates in you at certain moments — when a cause lights you up, or when you feel the pull of somewhere you haven't been — but your compass points closer to home more often than hers.",
+        "low": "Below 30%, Moana's ocean-and-purpose life is a vivid contrast to how you move through the world. You find meaning in depth rather than distance, or you build rather than voyage."
+      }
+    },
+    {
+      "code": "MULAN",
+      "name": "Mulan",
+      "movie": "Mulan",
+      "gender": "female",
+      "tagline": "You didn't break the rules — you proved they were wrong about you from the start.",
+      "description": "You are Mulan: brave in the truest sense — not because you feel no fear, but because something more important than fear moves you forward. You hold a fascinating internal tension: you care deeply about the people you protect and the honor of what you stand for, but you've never been able to squeeze yourself into the shape the world decided you should be. Your mind is sharp, strategic, and often two steps ahead of the room. You act with purpose, not impulse, and when you commit to something — whether a mission or a person — you give it everything. You've had to fight for the right to be exactly who you are, and that fight has made you formidable.",
+      "strengths": [
+        "Strategic intelligence combined with decisive, physical courage",
+        "Acts under pressure with clarity that most people lose entirely",
+        "Carries both duty and individuality without letting either erase the other",
+        "Earns respect through competence, not title — and it sticks"
+      ],
+      "weaknesses": [
+        "The weight of family expectation sits heavily even when she's defying it",
+        "Can keep her real self hidden behind the role she's filling",
+        "Occasionally overthinks the social piece while the tactical piece is already solved",
+        "Struggles to ask for help — she's used to doing it alone"
+      ],
+      "quote": "I'll make a man out of you — wait, scratch that.",
+      "power": "The ability to transform a perceived weakness into the exact thing that saves everyone.",
+      "sidekick": "Mushu",
+      "thrives_when": [
+        "Given a challenge that demands both intelligence and guts",
+        "Fighting for something or someone she genuinely believes in",
+        "In an environment that ultimately rewards capability over conformity"
+      ],
+      "struggles_when": [
+        "Forced to wear a mask — social, professional, or literal — that doesn't fit her",
+        "Her contribution is dismissed because of who she is rather than what she's done",
+        "The people she's protecting don't know she's the one doing it"
+      ],
+      "famous_people": ["Serena Williams", "Priyanka Chopra", "Michelle Obama"],
+      "profile": [4, 3, 4, 4, 3, 3, 3, 4, 3, 4, 3, 4, 3, 4, 3],
+      "reasons": {
+        "perfect": "At 90%+, you and Mulan are the same quiet storm — you've felt the gap between who you're expected to be and who you actually are, and you've chosen the honest, harder version every time.",
+        "high": "At 60–89%, you share Mulan's strategic courage and the particular determination of someone who has had to prove themselves in rooms that didn't believe in them yet. You fight smart and you fight hard.",
+        "mid": "At 30–59%, Mulan's story connects at the edges — maybe the duty-versus-self tension, or the streak of tactical thinking — but your balance of heart, independence, and ambition leans differently than hers.",
+        "low": "Below 30%, Mulan's warrior pragmatism and carefully contained identity are far from your mode. You might lead with emotion where she leads with strategy, or your independence runs freer than her duty-bound compass allows."
+      }
+    },
+    {
+      "code": "RAPUNZEL",
+      "name": "Rapunzel",
+      "movie": "Tangled",
+      "gender": "female",
+      "tagline": "You've been waiting for the world — and you're going to love every single inch of it.",
+      "description": "You are Rapunzel: someone whose joy is so genuine it could light a tower, whose curiosity turns every new experience into pure aliveness, and whose warmth makes people want to be the version of themselves they most like. You've lived inside limits longer than you should have, and that's made the world feel even more enormous and wonderful now that you're in it. You lead with your heart, feel everything intensely, and connect with people and places with a naturalness that looks effortless but comes from genuinely caring about what's in front of you. You're still figuring out who you are outside the story someone else wrote for you — and that figuring out is itself one of the most beautiful parts.",
+      "strengths": [
+        "Radiant warmth and genuine enthusiasm that make people feel seen",
+        "Creative and resourceful — makes the most of whatever she has",
+        "Emotional openness that allows for real, fast connection",
+        "Resilient joy — capable of wonder even after being wounded by the world"
+      ],
+      "weaknesses": [
+        "Has absorbed others' narratives about herself and is still unlearning them",
+        "Enthusiasm can run ahead of self-protective instincts",
+        "Prone to guilt when following her own desires over obligations",
+        "The size of her emotional world can be overwhelming in quieter moments"
+      ],
+      "quote": "I've been looking out a window for eighteen years, dreaming about what I might feel like when those lights rise in the sky.",
+      "power": "Healing — the rare ability to pour genuine light into people and places that have gone dark.",
+      "sidekick": "Pascal",
+      "thrives_when": [
+        "Experiencing the world in real time, with all senses fully open",
+        "Creating something — art, connection, an adventure — from nothing",
+        "Loved by people who want her to grow, not stay the same"
+      ],
+      "struggles_when": [
+        "Made to doubt herself by people with their own agendas",
+        "The joy of discovery is replaced by the anxiety of uncertainty",
+        "Her openness is read as weakness rather than courage"
+      ],
+      "famous_people": ["Dolly Parton", "Hailey Baldwin", "Mandy Moore"],
+      "profile": [4, 5, 4, 5, 4, 5, 5, 5, 5, 4, 3, 2, 3, 3, 3],
+      "reasons": {
+        "perfect": "At 90%+, you and Rapunzel are the same unbounded soul — you know what it is to feel the world open up in front of you and want to run toward all of it at once, arms wide, frying pan optional.",
+        "high": "At 60–89%, you share Rapunzel's emotional aliveness and her gift for making every new experience feel like the first day of something wonderful. You're warm, curious, and braver than you give yourself credit for.",
+        "mid": "At 30–59%, Rapunzel's boundless joy is something you recognize in your own best moments — when the world feels full and you feel open to it — but your baseline runs steadier or more inward than hers.",
+        "low": "Below 30%, Rapunzel's whole-hearted wonder and emotional immediacy are a different mode than yours. You might be more guarded, more strategic, or more settled — all of which are their own kind of strength."
+      }
+    },
+    {
+      "code": "JASMINE",
+      "name": "Jasmine",
+      "movie": "Aladdin",
+      "gender": "female",
+      "tagline": "You were never a prize to be won — you were always the one doing the choosing.",
+      "description": "You are Jasmine: sharp, passionate, and deeply tired of a world that tries to define you by your circumstances rather than your choices. You want a whole life — not a gilded version of half of one — and you've never been convinced that wanting that makes you difficult. You lead with your heart but you're not soft: there's a directness to how you love and how you push back that comes from knowing exactly what you will and won't accept. You're drawn to people who see you clearly, situations that let you be fully yourself, and moments of genuine, unscripted aliveness. You're loyal to who you love, but your freedom is not negotiable.",
+      "strengths": [
+        "Fierce self-knowledge — she knows what she wants and won't pretend otherwise",
+        "Warmth and directness in equal measure — you always know where you stand",
+        "Courage to refuse what everyone else has agreed to accept",
+        "Passionate and alive in a way that's genuinely magnetic"
+      ],
+      "weaknesses": [
+        "Impatience with a world that moves slower than her standards",
+        "The desire for freedom can make compromise feel like surrender",
+        "Protective pride can look like stubbornness when collaboration is needed",
+        "Trusts quickly when someone shows her the realness she's been starved of"
+      ],
+      "quote": "I am not a prize to be won.",
+      "power": "Radical self-possession — the ability to walk into a room and belong entirely to yourself.",
+      "sidekick": "Rajah",
+      "thrives_when": [
+        "Making her own choices without justifying them to a world that didn't earn that right",
+        "In the company of someone who sees past her circumstances to who she actually is",
+        "When she can use her position to change something that actually matters"
+      ],
+      "struggles_when": [
+        "Boxed into a role that erases her actual personality",
+        "Her passion and directness are read as ingratitude or rebellion",
+        "Forced to choose between her people and her freedom indefinitely"
+      ],
+      "famous_people": ["Rihanna", "Mindy Kaling", "Meghan Markle"],
+      "profile": [4, 5, 4, 4, 5, 5, 4, 5, 4, 5, 2, 1, 2, 2, 1],
+      "reasons": {
+        "perfect": "At 90%+, you and Jasmine share the same refusal — to be defined, contained, or handed a life that doesn't fit. You know your worth, you lead with your heart, and you don't ask permission to be yourself.",
+        "high": "At 60–89%, you carry Jasmine's fire and her appetite for something real. You're emotionally direct, you prize your freedom, and you've felt the specific frustration of a world that underestimates you.",
+        "mid": "At 30–59%, Jasmine's passion resonates with you in patches — maybe the desire for something beyond the walls, or the depth of loyalty when you love — but your route to freedom or your relationship to duty runs differently.",
+        "low": "Below 30%, Jasmine's palace-break energy is pretty far from your story. You're more likely to find your freedom within structures than by dismantling them, and loyalty probably pulls harder than independence in your life."
+      }
+    },
+    {
+      "code": "TIANA",
+      "name": "Tiana",
+      "movie": "The Princess and the Frog",
+      "gender": "female",
+      "tagline": "You know what you want — and you're building it with your own two hands.",
+      "description": "You are Tiana: someone who understands that dreams don't arrive — they are built, one sacrifice and one early morning at a time. You are hardworking in the way that comes from caring deeply, disciplined in the way that comes from genuinely believing in what you're creating. You lead with your heart, but your heart has a plan: it loves with intention and gives with purpose. You don't chase the horizon; you plant roots and grow something real. The people who love you know you're one of the most fiercely loyal people in any room, and the thing you're creating — whether it's a restaurant, a relationship, or a life — has your entire self poured into it.",
+      "strengths": [
+        "Extraordinary work ethic powered by genuine passion, not just ambition",
+        "Deeply loyal — when Tiana is in your corner, she's all the way in",
+        "Practical wisdom that knows the difference between a dream and a plan",
+        "Warmth that expresses itself through doing — cooking, building, showing up"
+      ],
+      "weaknesses": [
+        "Can work so hard toward the dream that the present moment becomes an afterthought",
+        "Difficulty accepting help — she's wired to carry it herself",
+        "Emotional needs sometimes get filed under 'later' indefinitely",
+        "The fear of losing what she's built can make her hold on too tightly"
+      ],
+      "quote": "My daddy never did get what he wanted, but he had what he needed.",
+      "power": "Transformation through labor and love — the deep magic of making something real from nothing but will and care.",
+      "sidekick": "Louis",
+      "thrives_when": [
+        "Working toward something concrete that will last and that matters to people she loves",
+        "Her discipline and dedication are matched by genuine appreciation",
+        "Given room to lead with both her competence and her heart"
+      ],
+      "struggles_when": [
+        "The work consumes the life she's working for",
+        "Her self-sufficiency is mistaken for not needing anything from anyone",
+        "Circumstances rewrite the plan she's sacrificed everything to follow"
+      ],
+      "famous_people": ["Oprah Winfrey", "Shonda Rhimes", "Viola Davis"],
+      "profile": [1, 2, 1, 2, 1, 4, 5, 4, 5, 4, 5, 5, 4, 5, 5],
+      "reasons": {
+        "perfect": "At 90%+, you and Tiana are the same determined, loving soul — you know the weight of a dream and the work it takes to turn it real, and you've never expected the universe to hand it to you.",
+        "high": "At 60–89%, you share Tiana's combination of heart and hustle. You love deeply and build deliberately, and the people who earn your loyalty get one of the most dependable partners they'll ever have.",
+        "mid": "At 30–59%, you respect Tiana's grind and recognize her loyalty, but your approach to life is more spontaneous, more exploratory, or less driven by a single north-star goal than hers is.",
+        "low": "Below 30%, Tiana's plan-first, build-first world is quite different from yours. You might wander where she settles, follow feeling where she follows strategy, or prefer the open road to the restaurant that takes a decade to open."
+      }
+    },
+    {
+      "code": "MERIDA",
+      "name": "Merida",
+      "movie": "Brave",
+      "gender": "female",
+      "tagline": "Your fate is your own — and you'll shoot an arrow through anyone who forgets it.",
+      "description": "You are Merida: wild, honest, and constitutionally incapable of pretending to be something you're not. You are adventurous in the most physical, joyful sense — you need the wind in your hair and the ground moving under your feet to feel like yourself. You think with a precision that could pass for logic, but it's really a fierce clarity about what matters and what doesn't. Rules that serve other people's convenience at the expense of your whole self don't interest you, and you've never been good at disguising that fact. Your love is real, even when it comes out sideways — you'd burn down a kingdom for your family, even while arguing with every single member of it.",
+      "strengths": [
+        "Fearless authenticity — she is entirely, unapologetically herself",
+        "Physical courage and skill that back up every ounce of her confidence",
+        "Stubborn honesty that cuts through pretension and gets to what's real",
+        "Fierce love for family that runs deeper than the constant disagreements suggest"
+      ],
+      "weaknesses": [
+        "Impatience with nuance when she's already certain she's right",
+        "Acts before thinking when the injustice is personal",
+        "Independence can shade into isolation when she won't let anyone in",
+        "The apology comes hard, even when she knows she owes it"
+      ],
+      "quote": "I'll be shooting for my own hand.",
+      "power": "The arrow that flies true — the ability to go straight at what everyone else circles around.",
+      "sidekick": "Angus",
+      "thrives_when": [
+        "Free to move — through forests, ideas, or any space that gives her room to breathe",
+        "In honest, direct confrontation that gets to the truth fast",
+        "Making her own choices, consequences included"
+      ],
+      "struggles_when": [
+        "Caged by expectations she had no say in creating",
+        "Required to perform a gentleness or compliance she doesn't feel",
+        "Her directness causes damage she didn't intend and can't easily repair"
+      ],
+      "famous_people": ["Emma Stone", "Brené Brown", "P!nk"],
+      "profile": [5, 5, 5, 5, 5, 3, 2, 3, 3, 2, 1, 1, 2, 1, 1],
+      "reasons": {
+        "perfect": "At 90%+, you and Merida are kindred spirits — untameable, fiercely yourself, and deeply allergic to being told who to be. You've felt the arrow leave the bow before anyone could stop you, and you're not sorry.",
+        "high": "At 60–89%, you share Merida's love of freedom and her unfiltered authenticity. You're not one for performing a version of yourself that other people find easier, and that takes a particular kind of courage.",
+        "mid": "At 30–59%, Merida's wildness lights something up in you — a part that wants to ride off and do it your way — but your actual life involves more loyalty, more heart, or more strategy than her compass reads.",
+        "low": "Below 30%, Merida's full-force, no-filter approach is pretty different from how you move. You might express your individuality more quietly, carry more duty in your chest, or prefer emotional depth to physical freedom."
+      }
+    },
+    {
+      "code": "MIRABEL",
+      "name": "Mirabel",
+      "movie": "Encanto",
+      "gender": "female",
+      "tagline": "You don't need a gift to be the one who holds everything together.",
+      "description": "You are Mirabel: the most emotionally perceptive person in any room, the one who sees the cracks everyone else has agreed to ignore, and the one who stays anyway because you love the people in it. You lead so powerfully with your heart that it can feel like a vulnerability, but it's actually your superpower: you read people at a depth that analysis alone never reaches, and you show up for them in ways that cost you something real. You're curious and warm, and your willingness to be the one who asks the hard question — 'is everyone actually okay?' — is braver than most acts of daring. Your gift is connection, and it's enough.",
+      "strengths": [
+        "Profound emotional perceptiveness — she sees what others hide and loves them anyway",
+        "Courage to name the thing nobody else will say out loud",
+        "Boundless loyalty to family even when family is complicated and imperfect",
+        "Creative, warm, and genuinely delightful to be around"
+      ],
+      "weaknesses": [
+        "Can lose herself trying to fix everyone else's story while her own goes unwritten",
+        "Carries the weight of others' pain as though it were her responsibility to solve",
+        "Self-worth takes a hit when she compares her gifts to everyone else's",
+        "Tendency to hold her feelings in until they're impossible to contain"
+      ],
+      "quote": "What could I do for you? I'm the one who sees you.",
+      "power": "Emotional sight — the ability to love people not for their gifts but for who they are underneath them.",
+      "sidekick": "Luisa",
+      "thrives_when": [
+        "Her empathy and insight are recognized as the genuine power they are",
+        "Part of a family or community that allows honesty alongside love",
+        "When she's allowed to be helped as well as to help"
+      ],
+      "struggles_when": [
+        "Measured against others' extraordinary abilities and found lacking",
+        "Her emotional needs are treated as less important than everyone else's",
+        "The cracks she sees are explained away rather than addressed"
+      ],
+      "famous_people": ["Brené Brown", "Lizzo", "America Ferrera"],
+      "profile": [3, 3, 3, 4, 3, 5, 5, 5, 5, 5, 5, 4, 5, 5, 4],
+      "reasons": {
+        "perfect": "At 90%+, you and Mirabel are the same big-hearted truth-teller — you see what's real, you love anyway, and you're usually the one holding things together while hoping someone notices you need holding too.",
+        "high": "At 60–89%, you share Mirabel's emotional depth and her loyalty that doesn't quit. You've been the person asking if everyone's okay when no one thought to ask you, and you know exactly what that costs.",
+        "mid": "At 30–59%, Mirabel's heart resonates in you, but your adventure-seeking or your independence pulls you in a direction she'd recognize but not entirely share. You're family-first in some ways and firmly your own person in others.",
+        "low": "Below 30%, Mirabel's family-centered, deeply feeling world is a different terrain than yours. You might lead more with logic, wander more freely, or find your meaning in experiences rather than relationships."
+      }
+    },
+    {
+      "code": "POCAHONTAS",
+      "name": "Pocahontas",
+      "movie": "Pocahontas",
+      "gender": "female",
+      "tagline": "You can hear the earth speaking — and you've always known how to listen.",
+      "description": "You are Pocahontas: deeply grounded and deeply free at once, with a heart that encompasses rivers and mountains and the particular aliveness of wind through the trees. You feel the world at a frequency most people can't tune in to, and your emotional and spiritual intelligence is extraordinary. You're adventurous in the internal sense as much as the external one — you follow paths others haven't mapped because you can feel where they lead. You hold your people close and your beliefs closer, and when love comes for you, it comes completely. You're unafraid of the unknown, including the unknown inside another person.",
+      "strengths": [
+        "Spiritual and emotional intelligence that runs unusually deep",
+        "Courage to walk toward connection across impossible distances",
+        "Grounded in something larger than herself — nature, community, truth",
+        "Sees what's essential when everyone else is arguing about the surface"
+      ],
+      "weaknesses": [
+        "The pull between worlds can leave her fully at home in neither",
+        "Love can move so powerfully in her that it overtakes practical judgment",
+        "Her willingness to see the good in others can run ahead of the evidence",
+        "Bears cultural and communal weight that belongs to many, not just her"
+      ],
+      "quote": "You can own the earth and still — all you'll own is earth until you can paint with all the colors of the wind.",
+      "power": "The ability to feel the aliveness in everything — and communicate it to people who have forgotten it exists.",
+      "sidekick": "Meeko & Flit",
+      "thrives_when": [
+        "In nature, or in any space that feels honest and unmediated",
+        "When her instincts about people and situations are trusted",
+        "Connected to a purpose that honors both herself and her community"
+      ],
+      "struggles_when": [
+        "Forced to choose a side in a conflict that shouldn't have sides",
+        "Her wisdom is dismissed because it doesn't speak in the expected language",
+        "The world around her moves toward destruction she can feel coming"
+      ],
+      "famous_people": ["Erykah Badu", "Winona LaDuke", "Florence Welch"],
+      "profile": [4, 4, 4, 5, 4, 5, 5, 5, 5, 5, 2, 3, 3, 2, 3],
+      "reasons": {
+        "perfect": "At 90%+, you and Pocahontas share the same rare frequency — you hear what the world says underneath the noise, you feel deeply, and your aliveness in any moment is unmistakable to anyone paying attention.",
+        "high": "At 60–89%, you carry Pocahontas's spiritual depth and emotional fullness. You've felt the call of something you couldn't explain, followed it, and found that it knew exactly where to take you.",
+        "mid": "At 30–59%, you connect with her in the emotional richness or the wandering spirit, but your relationship to community, tradition, or freedom runs on a different axis than hers.",
+        "low": "Below 30%, Pocahontas's animist, river-following world is genuinely different from how you inhabit yours. You might find meaning in logic, in building, or in belonging — all of which are real, just differently tuned."
+      }
+    },
+    {
+      "code": "SIMBA",
+      "name": "Simba",
+      "movie": "The Lion King",
+      "gender": "male",
+      "tagline": "You were always the king — you just had to find your way back.",
+      "description": "You are Simba: someone who has run from something real and eventually found the courage to turn around and face it. You have a big, warm heart and a joyful spirit that can — when the weight of the world presses down — disappear under the performance of not caring. You lead with feeling, and when you love something — a person, a home, an identity — you love it with everything. Your growth isn't about becoming someone new; it's about accepting the person you already were. The path back to yourself runs through the things you've avoided, and you've discovered that facing them is the most alive you've ever felt.",
+      "strengths": [
+        "Deep heart — loves with a fullness that defines his choices",
+        "Joyful, magnetic spirit that draws others in naturally",
+        "Genuine courage that develops rather than being handed to him",
+        "Strong sense of identity once he stops running from it"
+      ],
+      "weaknesses": [
+        "Avoidance as a coping mechanism — 'Hakuna Matata' has real costs",
+        "Guilt is a shadow that can paralyze him when he needs to move",
+        "Needs external confrontation to face what he'd rather look away from",
+        "Can be reactive when old wounds are touched"
+      ],
+      "quote": "I know what I have to do — but going back means I'll have to face my past.",
+      "power": "Returning — the courage to go back to who you were supposed to be and claim it.",
+      "sidekick": "Timon & Pumbaa",
+      "thrives_when": [
+        "Living with purpose that connects him to something larger than himself",
+        "Surrounded by people who reflect his best self back to him",
+        "When he's allowed to feel the full weight of what he carries rather than suppress it"
+      ],
+      "struggles_when": [
+        "Guilt or shame cuts him off from his own power",
+        "Responsibility arrives before he believes he's ready for it",
+        "The past shows up and finds him still running"
+      ],
+      "famous_people": ["Barack Obama", "Will Smith", "Usher"],
+      "profile": [4, 4, 3, 4, 4, 5, 4, 5, 4, 4, 4, 4, 5, 4, 5],
+      "reasons": {
+        "perfect": "At 90%+, you and Simba are cut from the same pride — big-hearted, duty-bound in the end, and someone who has done some running but always known, somewhere deep, what they needed to go back to.",
+        "high": "At 60–89%, you share Simba's warmth and his complicated relationship with responsibility. You've felt the pull between what's easy and what's right, and you've mostly chosen right, even when it cost you.",
+        "mid": "At 30–59%, you recognize Simba's heart and his journey, but your story runs less dramatically between running and returning. You're steadier, freer, or more internally settled than his arc requires.",
+        "low": "Below 30%, Simba's guilt-and-glory arc is pretty far from your experience. You're likely more self-directed, more free, or more emotionally consistent than someone who needed a ghost in the clouds to find himself."
+      }
+    },
+    {
+      "code": "ALADDIN",
+      "name": "Aladdin",
+      "movie": "Aladdin",
+      "gender": "male",
+      "tagline": "You're more than what they see — and you've always known it.",
+      "description": "You are Aladdin: street-smart, warm-hearted, and carrying a gap between who you are and who the world has decided to see. You're quick, charming, and genuinely good in a way that has nothing to do with what you own or where you come from — but you haven't always trusted that. You lead with your heart and your instincts in equal measure, and when your curiosity and your compassion align, you're capable of extraordinary things. Your challenge is learning that you don't need a disguise — the real version of you has always been more than enough.",
+      "strengths": [
+        "Street intelligence and quick thinking that solves problems before they become crises",
+        "Genuine warmth and compassion that people feel immediately",
+        "Courage that moves fast and doesn't overthink",
+        "Deeply loyal to the people who've chosen him"
+      ],
+      "weaknesses": [
+        "Imposter syndrome that runs deep — the disguise can become reflexive",
+        "Lies told for the right reasons still tend to detonate eventually",
+        "Self-worth is too tangled up with external validation",
+        "Impulsiveness can trade a small problem for a large one"
+      ],
+      "quote": "Do you trust me?",
+      "power": "The ability to find a way — always, no matter the wall in front of him.",
+      "sidekick": "Abu & Genie",
+      "thrives_when": [
+        "Given the chance to show who he really is rather than who he's pretended to be",
+        "Moving fast through a challenge that rewards instinct over protocol",
+        "Loved by people who chose him, not the version he performed for them"
+      ],
+      "struggles_when": [
+        "The gap between his real self and the one he's presented yawns dangerously wide",
+        "Status and worthiness become the price of belonging",
+        "His loyalty is tested by a world that keeps offering him a different version of himself"
+      ],
+      "famous_people": ["Lin-Manuel Miranda", "Chadwick Boseman", "Ryan Reynolds"],
+      "profile": [4, 5, 4, 5, 4, 4, 5, 4, 4, 5, 2, 2, 2, 2, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Aladdin are practically the same person — warm, quick, adventurous, and carrying a version of yourself you've been afraid to show. The whole world is a magic carpet waiting for you to trust it.",
+        "high": "At 60–89%, you share Aladdin's heart and his hunger for something bigger than the circumstances he was handed. You're charming, loyal, and braver than you usually give yourself credit for.",
+        "mid": "At 30–59%, you've got Aladdin's warmth in you, but your relationship to adventure, identity, or loyalty runs on different settings than his street-to-palace sprint requires.",
+        "low": "Below 30%, Aladdin's hustle-and-heart world is quite different from yours. You might move more deliberately, carry more self-certainty, or find freedom less urgent than he does — none of which is a diamond in the rough."
+      }
+    },
+    {
+      "code": "FLYNN",
+      "name": "Flynn Rider",
+      "movie": "Tangled",
+      "gender": "male",
+      "tagline": "The smirk is armor — underneath it is something a lot warmer than he'd admit.",
+      "description": "You are Flynn Rider — or, more accurately, Eugene Fitzherbert, which is the part that matters. You built a persona to survive a world that wasn't particularly kind to you, and the performance is so good that people sometimes miss the real thing underneath. You're witty, adaptable, and genuinely fun to be around, and when you drop the act — when something or someone earns the real version of you — what's there is startling in its warmth. You're brave when it counts. You're loyal once you've decided someone is worth it. Your freedom has always been a costume, not a cage, and the right story got you to take it off.",
+      "strengths": [
+        "Wit and adaptability that handles any situation without missing a beat",
+        "Genuine bravery that appears exactly when it's needed most",
+        "Warmth and loyalty that run deep once the armor is down",
+        "Self-awareness that, eventually, leads him all the way to growth"
+      ],
+      "weaknesses": [
+        "The smirk is a default even when vulnerability would work better",
+        "Commitment arrives late — he runs first and reconsiders from a safer distance",
+        "Self-interest and genuine goodness are in permanent negotiation",
+        "Trusting people with the real version of him feels genuinely costly"
+      ],
+      "quote": "I have dreams like you — no, really. Just much less... uh... pointy.",
+      "power": "The perfectly timed sacrifice — giving up the act at exactly the moment it matters most.",
+      "sidekick": "Maximus",
+      "thrives_when": [
+        "In a situation that rewards charm, quick thinking, and the ability to read a room",
+        "With someone who sees through the performance and likes what's underneath",
+        "When the adventure is real and the stakes require his actual self"
+      ],
+      "struggles_when": [
+        "The persona stops working and there's no backup plan",
+        "He's asked to be vulnerable before he's decided it's safe",
+        "The life he performed for so long starts to feel more comfortable than the real one"
+      ],
+      "famous_people": ["Ryan Reynolds", "Chris Pratt", "Jonah Hill"],
+      "profile": [5, 4, 4, 4, 5, 4, 5, 4, 4, 4, 1, 2, 1, 2, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Flynn are practically running the same con — the quick wit, the charm that's actually armor, the warmth underneath that you don't show people until they've earned it. The smirk is yours, but so is what's under it.",
+        "high": "At 60–89%, you share Flynn's adventurous spirit and his carefully managed emotional reveal. You're fun, you're fast, and you're more loyal than you typically advertise.",
+        "mid": "At 30–59%, you've got a bit of Flynn's charisma and his appetite for freedom, but your version of the story is less performance-heavy and more openly yourself — which he'd probably envy a little.",
+        "low": "Below 30%, Flynn's performative, freedom-chasing persona is pretty different from how you show up. You lead with what's real rather than what plays well, or you stay closer to home in ways he'd find foreign."
+      }
+    },
+    {
+      "code": "HERCULES",
+      "name": "Hercules",
+      "movie": "Hercules",
+      "gender": "male",
+      "tagline": "A true hero — and it turns out heroism has nothing to do with strength.",
+      "description": "You are Hercules: big-hearted, genuinely good, and still figuring out that the thing you've been looking for has been inside you the whole time. You're the person who actually means it when they say they want to help, and the energy you bring to challenges — physical, moral, or emotional — is enormous and authentic. You lead with your heart and try to do right, even when doing right requires giving up everything you thought you wanted. You've learned — or are learning — that belonging isn't about the world recognizing your greatness. It's about choosing what you love over what looks like greatness.",
+      "strengths": [
+        "Genuine heroism — he means it, every single time",
+        "Heart that chooses love over glory when the moment demands it",
+        "Optimism and energy that make impossible things feel possible",
+        "Loyalty to the people he loves that bends the rules of gods"
+      ],
+      "weaknesses": [
+        "Driven by external validation in ways that make him vulnerable to manipulation",
+        "Doesn't always know his own strength — literal and metaphorical",
+        "Can be naive about people whose motivations are less pure than his",
+        "The need to belong somewhere can be used against him"
+      ],
+      "quote": "A true hero isn't measured by the size of his strength, but by the strength of his heart.",
+      "power": "Love that overrides self-preservation — the willingness to give up everything for someone else's life.",
+      "sidekick": "Pegasus & Phil",
+      "thrives_when": [
+        "Given a clear challenge he can throw himself at completely",
+        "Loved by people who want him for who he is, not what he can do",
+        "When the right thing and the brave thing happen to be the same thing"
+      ],
+      "struggles_when": [
+        "Fame and belonging are dangled as the reward for being the version others want",
+        "He can't tell if someone sees him or his usefulness",
+        "Doing the right thing requires giving up the thing he's worked hardest for"
+      ],
+      "famous_people": ["Dwayne Johnson", "Chris Hemsworth", "Terry Crews"],
+      "profile": [4, 4, 4, 5, 4, 5, 5, 4, 5, 4, 4, 3, 4, 4, 3],
+      "reasons": {
+        "perfect": "At 90%+, you and Hercules are the same genuine soul — you lead with your heart, you mean what you say, and when the moment comes to choose between glory and love, you choose love without needing to think about it.",
+        "high": "At 60–89%, you share Hercules's warmth and his big, uncomplicated goodness. You're motivated by the right things and you've got the courage to back it up when the stakes are real.",
+        "mid": "At 30–59%, you connect with Hercules in the heart department, but your story is more nuanced or your freedom more central than his myth-and-glory arc allows for.",
+        "low": "Below 30%, Hercules's world of strength, glory, and big obvious heroism is pretty far from your mode. Your gifts are quieter, your path more inward, or your relationship to duty more complicated than his."
+      }
+    },
+    {
+      "code": "KRISTOFF",
+      "name": "Kristoff",
+      "movie": "Frozen",
+      "gender": "male",
+      "tagline": "You don't need a crowd — you've got your reindeer and you know what matters.",
+      "description": "You are Kristoff: practical, self-sufficient, and deeply good in a way that comes out in actions rather than declarations. You've spent enough time on your own to develop a very clear picture of how things work and a healthy skepticism toward anything that seems too easy or too fast. You're not unfriendly — you're selective, which is different. When you love something or someone, it's because you've actually looked at them and decided they're worth it, not because the feeling swept you along. You're an introvert who carries real warmth for the people who've earned their way into your circle, and you'd never ask for help you didn't actually need.",
+      "strengths": [
+        "Practical intelligence that cuts through sentimentality to what's actually useful",
+        "Deep reliability — if Kristoff says he'll be there, he'll be there",
+        "Self-sufficient without being emotionally shut down — he knows who he is",
+        "Unexpected warmth that means more precisely because it isn't automatic"
+      ],
+      "weaknesses": [
+        "The armor of self-sufficiency can keep connection at one remove longer than necessary",
+        "Skepticism occasionally outlasts the evidence that warranted it",
+        "Awkward in the emotional territory that doesn't come with a map",
+        "His comfort zone is genuinely very comfortable"
+      ],
+      "quote": "I don't trust easily. But reindeer are better than people.",
+      "power": "Showing up — consistently, practically, without drama, when it actually counts.",
+      "sidekick": "Sven",
+      "thrives_when": [
+        "In his element — outdoors, practical, moving through a problem with clear hands",
+        "With people who communicate directly and don't require performance",
+        "When his reliability is the thing that saves the day rather than the grand gesture"
+      ],
+      "struggles_when": [
+        "Required to perform emotional openness on a timeline he didn't set",
+        "The situation demands social fluency he genuinely doesn't have",
+        "His practicality is read as coldness by people who need something warmer"
+      ],
+      "famous_people": ["Steve Irwin", "Nick Offerman", "Jon Hamm"],
+      "profile": [2, 2, 2, 3, 2, 3, 3, 3, 3, 2, 3, 2, 2, 3, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Kristoff are cut from the same practical, quietly devoted cloth — you don't talk about what matters to you much, but the way you show up for people says everything.",
+        "high": "At 60–89%, you share Kristoff's self-sufficiency and his unpretentious warmth. You've got a small, carefully selected circle and you'd do anything for the people in it.",
+        "mid": "At 30–59%, Kristoff's steady, no-fuss world resonates in some corners of yours, but you lead with more heart on your sleeve, more adventure in your veins, or more loyalty in your chest than his loner mode allows.",
+        "low": "Below 30%, Kristoff's quiet, reindeer-and-mountains life is genuinely different terrain from yours. You lead with emotion, seek adventure, or carry duty in ways that his pragmatic independence doesn't quite capture."
+      }
+    },
+    {
+      "code": "WOODY",
+      "name": "Woody",
+      "movie": "Toy Story",
+      "gender": "male",
+      "tagline": "There's a snake in your boot — and you'll always, always come back.",
+      "description": "You are Woody: someone who defines themselves through the people and responsibilities they love, and who feels most like themselves when everyone they care about is safe and accounted for. You lead with your heart and you lead from the front — you volunteer, you organize, you show up. You have a fierce sense of what's right, and while that can occasionally tip into rigidity, it comes from a place of genuine love rather than control. Your loyalty is not a performance; it's who you are down to the plastic. You've wrestled with jealousy and fear and the terror of being left behind, and you've come through it knowing something most people take years to learn: loving someone means wanting the best for them, even when that's not you.",
+      "strengths": [
+        "Unwavering loyalty — he doesn't leave, he doesn't give up, he doesn't stop",
+        "Natural leader who steps up before anyone has to ask",
+        "Deep emotional intelligence in the service of the people he loves",
+        "Courage to face what he fears most in order to do right by others"
+      ],
+      "weaknesses": [
+        "Fear of abandonment runs so deep it can override his better judgment",
+        "Identity is so wrapped up in role and relationships that loss feels existential",
+        "Can be controlling when the anxiety of losing something good takes over",
+        "Has to relearn, repeatedly, that letting go is not the same as giving up"
+      ],
+      "quote": "You've got a friend in me.",
+      "power": "Unconditional commitment — the kind of friendship that doesn't have an expiration date.",
+      "sidekick": "Bullseye",
+      "thrives_when": [
+        "Leading a group he loves through something that matters",
+        "Trusted as the one who holds things together when everything else is uncertain",
+        "When his loyalty is met with the same loyalty in return"
+      ],
+      "struggles_when": [
+        "The role he's built his identity around disappears",
+        "Love requires him to stay behind or let go",
+        "He can't control the outcome no matter how hard he tries"
+      ],
+      "famous_people": ["Tom Hanks", "Fred Rogers", "Robin Williams"],
+      "profile": [1, 2, 1, 2, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "reasons": {
+        "perfect": "At 90%+, you and Woody are practically the same soul in a cowboy hat — duty is your north star, love is your engine, and there has never been a single moment in your life where you considered leaving someone behind.",
+        "high": "At 60–89%, you share Woody's fierce loyalty and his heart-first leadership. The people in your life know — definitively know — that you're in their corner.",
+        "mid": "At 30–59%, you connect with Woody's warmth and his sense of responsibility, but your adventure-seeking, independence, or emotional style runs a little wilder or freer than his cowboy-tied-to-the-ranch life.",
+        "low": "Below 30%, Woody's settled, duty-bound world is quite different from yours. You might roam where he stays, question where he commits, or find your identity in discovery rather than devotion."
+      }
+    },
+    {
+      "code": "MAUI",
+      "name": "Maui",
+      "movie": "Moana",
+      "gender": "male",
+      "tagline": "You've done incredible things — now try doing them for someone other than yourself.",
+      "description": "You are Maui: enormous in presence, formidable in capability, and carrying a wound underneath all the greatness that explains everything about why you need the world to see the greatness. You are genuinely funny, genuinely skilled, and genuinely brave — you've moved mountains, literally — but the thing you've spent your whole life performing is actually the thing that could save you: being seen by someone who doesn't need you to prove anything first. You're a wanderer and a doer, with a mind that adapts faster than most, and when you finally put your gifts in service of something other than your own legend, the result is something worth singing about.",
+      "strengths": [
+        "Extraordinary capability backed by genuine heroic history",
+        "Charisma and humor that make even hard moments bearable",
+        "Adaptability and quick thinking at demigod scale",
+        "Eventually — and genuinely — a loyalty worth having"
+      ],
+      "weaknesses": [
+        "Self-worth is tied to what he's accomplished, not who he is",
+        "Ego arrives before introspection at almost every crossroads",
+        "Has to be cornered by the right person before he'll be honest",
+        "Uses humor to deflect the things he most needs to face"
+      ],
+      "quote": "What can I say except you're welcome?",
+      "power": "The hook and what it means — the ability to be so much more than the legend, if you choose it.",
+      "sidekick": "Mini Maui",
+      "thrives_when": [
+        "His gifts are in service of something genuinely worth doing",
+        "Matched with someone who won't be impressed into silence by his greatness",
+        "When he's allowed to be funny and enormous and also, quietly, himself"
+      ],
+      "struggles_when": [
+        "The legend is asked to step aside and let the person speak",
+        "He can't solve it with strength, wit, or a shape-shift",
+        "Abandonment wounds are touched and there's no grand gesture to cover it"
+      ],
+      "famous_people": ["Dwayne Johnson", "Eddie Murphy", "Will Smith"],
+      "profile": [5, 4, 4, 4, 5, 3, 3, 4, 3, 3, 2, 2, 1, 2, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Maui share the same combination of enormous gifts, enormous presence, and a wound somewhere underneath that explains why the performance is so polished. The hook is yours. So is the growing.",
+        "high": "At 60–89%, you've got Maui's adventurous spirit and his quick, adaptive mind. You're capable, charming, and eventually, when it matters, loyal in ways that surprise even you.",
+        "mid": "At 30–59%, Maui's wandering bravado connects at the surface, but your emotional style is more transparent, your loyalty less earned-in-the-third-act, or your sense of identity less performance-dependent.",
+        "low": "Below 30%, Maui's self-mythology and external-validation engine are pretty different from how you move. You don't need the legend — you've got something quieter and more genuinely yours."
+      }
+    },
+    {
+      "code": "STITCH",
+      "name": "Stitch",
+      "movie": "Lilo & Stitch",
+      "gender": "male",
+      "tagline": "This is my family — small and broken, but still good.",
+      "description": "You are Stitch: designed for chaos but built, over time, for something far more important. You came into the world with enormous energy and an instinct toward destruction, and the most interesting thing that ever happened to you was a girl who decided to love you anyway. You're fiercely loyal now, and that loyalty is more meaningful because you chose it — because it rewrote the story of what you were supposed to be. You're funny, strange, overwhelming, and real in a way that exhausts people who need easy, and electrifies the ones who recognize it. You'll destroy the place if you have to, but you won't leave your family.",
+      "strengths": [
+        "Fiercely protective loyalty, hard-won and therefore unbreakable",
+        "Enormous energy and creative chaos that solves problems sideways",
+        "Genuine emotional depth beneath the wild exterior",
+        "The capacity to change — completely, genuinely, because love asked it of him"
+      ],
+      "weaknesses": [
+        "First instinct is still to break things — even when that's not what the situation needs",
+        "Emotional regulation is a work in progress, always",
+        "Can overwhelm people who aren't ready for his particular frequency",
+        "Deep fear of abandonment that can read as aggression"
+      ],
+      "quote": "Ohana means family. Family means nobody gets left behind — or forgotten.",
+      "power": "Transformation by love — the ability to become something entirely different when someone chooses you.",
+      "sidekick": "Lilo",
+      "thrives_when": [
+        "Loved without condition or requirement to be smaller than he is",
+        "His chaos is directed toward protecting something he cares about",
+        "Part of a family, however small and unusual, that is genuinely his"
+      ],
+      "struggles_when": [
+        "Made to feel like his nature is a defect rather than a feature",
+        "Abandoned by the people who were supposed to stay",
+        "Required to be calm and conventional in situations designed for neither"
+      ],
+      "famous_people": ["Jim Carrey", "Robin Williams", "Billie Eilish"],
+      "profile": [4, 5, 5, 4, 4, 4, 5, 4, 5, 4, 3, 4, 4, 5, 4],
+      "reasons": {
+        "perfect": "At 90%+, you and Stitch are the same chaotic, loving, loyalty-to-the-death soul — too much for some people, exactly right for the ones who matter. Your 'ohana knows you'd burn it all down before you'd leave them.",
+        "high": "At 60–89%, you share Stitch's enormous heart and his particular brand of love: protective, real, and chosen. You're a lot, in the best possible way, and the right people know it.",
+        "mid": "At 30–59%, you've got some of Stitch's loyalty and warmth, but your energy runs more calibrated, your adventures less explosive, or your relationship to rules and belonging more settled than his.",
+        "low": "Below 30%, Stitch's beautiful mayhem is quite different from your frequency. You might approach loyalty more quietly, adventure more deliberately, or chaos not at all — which is fine. Not everyone needs to eat the couch."
+      }
+    },
+    {
+      "code": "JACK",
+      "name": "Jack Skellington",
+      "movie": "The Nightmare Before Christmas",
+      "gender": "male",
+      "tagline": "You've mastered everything here — and it still isn't enough.",
+      "description": "You are Jack Skellington: brilliant, restless, and aching for something the world you've built for yourself cannot provide. You're deeply emotional underneath the theatrics — the grand melancholy is real, not performed — and you feel the pull of the unknown so powerfully that it can temporarily eclipse everything you actually love. You think differently from most people: your mind moves in spirals, your imagination is extraordinary, and the things that fascinate you are rarely the things that fascinate everyone else. You've learned — at some cost — that the cure for the emptiness you feel is not a new world to conquer, but a deeper attention to the world, and the people, you already have.",
+      "strengths": [
+        "Visionary imagination that sees the extraordinary in everything",
+        "Passionate intensity that is genuinely compelling to be near",
+        "Emotional depth that runs darker and richer than most people ever reach",
+        "Will throw himself entirely into whatever currently holds his soul"
+      ],
+      "weaknesses": [
+        "The restlessness can become its own kind of blindness",
+        "Passion without grounding tends toward disaster at scale",
+        "Can be so absorbed in the new obsession that the present is abandoned",
+        "The existential ache is real, but the solutions it points to aren't always right"
+      ],
+      "quote": "And I, Jack, the Pumpkin King, have grown so tired of the same old thing.",
+      "power": "The ability to transform any world he enters — for better or worse, always completely.",
+      "sidekick": "Zero",
+      "thrives_when": [
+        "Obsessed with something that matches the scale of his imagination",
+        "Loved by someone who sees the real feeling beneath the theatrical exterior",
+        "When his creativity is channeled toward something that genuinely needs it"
+      ],
+      "struggles_when": [
+        "The pursuit of the new destroys what was actually precious",
+        "Nobody around him can keep up with where his mind goes",
+        "He mistakes novelty for meaning and has to learn it again"
+      ],
+      "famous_people": ["Tim Burton", "Trent Reznor", "Lana Del Rey"],
+      "profile": [5, 4, 5, 4, 5, 4, 4, 5, 4, 4, 2, 1, 2, 1, 1],
+      "reasons": {
+        "perfect": "At 90%+, you and Jack share the same beautiful, aching restlessness — the sense that even the kingdom you've built isn't the whole story, and the inability to stop looking for what's missing. You feel things at a frequency that not everyone can hear.",
+        "high": "At 60–89%, you carry Jack's visionary imagination and his emotional depth. You've felt the particular melancholy of having everything and still being pulled toward some unnamed elsewhere.",
+        "mid": "At 30–59%, you recognize Jack's wandering soul in yourself, but your loyalty or your groundedness or your simpler relationship to satisfaction keeps you from the full Pumpkin King spiral.",
+        "low": "Below 30%, Jack's existential wandering and theatrical darkness are far from your frequency. You find satisfaction more readily, lead with practicality or connection rather than restless vision, or your sense of belonging runs deeper than his."
+      }
+    },
+    {
+      "code": "MIGUEL",
+      "name": "Miguel",
+      "movie": "Coco",
+      "gender": "male",
+      "tagline": "Music is your voice — and you'll follow it all the way to where it comes from.",
+      "description": "You are Miguel: passionate, brave, and willing to walk into the Land of the Dead for the music that lives inside you. You lead with your heart and your gut in equal measure — when something calls to you, you move toward it with a full-body certainty that is almost impossible to argue with. You're warm and funny and genuinely loving, and you carry the particular emotional complexity of someone who has had to choose between the family that loves them and the self that loves something else. The resolution, when it comes, is never about abandoning either — it's about finding where they meet.",
+      "strengths": [
+        "Passionate commitment to his calling that resists every obstacle",
+        "Emotional warmth and humor that open hearts wherever he goes",
+        "Brave enough to cross literal and figurative impossible distances for what he loves",
+        "Sees the value in what others have forgotten or left behind"
+      ],
+      "weaknesses": [
+        "Passion can run ahead of wisdom — not every door should be opened",
+        "The dream can feel so urgent that it eclipses the people right in front of him",
+        "His belief in people extends sometimes beyond what they've earned",
+        "Young enough to be certain about things that deserve a little more doubt"
+      ],
+      "quote": "I've been searching my whole life. Music is who I am.",
+      "power": "The song that crosses worlds — the ability to reach people with feeling when nothing else can.",
+      "sidekick": "Dante",
+      "thrives_when": [
+        "Following his passion with the full support of the people he loves",
+        "Given a guitar and an audience willing to feel something",
+        "When the past and the present are in conversation rather than conflict"
+      ],
+      "struggles_when": [
+        "Forced to choose between his music and his family",
+        "His enthusiasm is mistaken for disrespect toward what came before",
+        "The distance between where he is and where he needs to be feels insurmountable"
+      ],
+      "famous_people": ["Carlos Santana", "Billie Eilish", "Bruno Mars"],
+      "profile": [4, 4, 4, 5, 4, 5, 5, 4, 5, 4, 3, 3, 3, 3, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Miguel share the same soul-deep calling — something sings in you that you'd cross any world to follow, and the people you love are somewhere in that music, not in opposition to it.",
+        "high": "At 60–89%, you carry Miguel's passion and his warmth. When you love something, you love it completely, and you've been brave enough to say so even when the room didn't agree.",
+        "mid": "At 30–59%, Miguel's passion resonates with you in moments — the feeling of a calling, the love of family — but your daily life runs a little less urgently toward a single star.",
+        "low": "Below 30%, Miguel's music-first, chase-it-across-worlds energy is pretty different from how you move. You find meaning more quietly, build more gradually, or carry more pragmatism than his teenage certainty allows."
+      }
+    },
+    {
+      "code": "REMY",
+      "name": "Remy",
+      "movie": "Ratatouille",
+      "gender": "male",
+      "tagline": "Anyone can cook — and you're the one who actually believes it.",
+      "description": "You are Remy: someone whose gifts put them exactly where they're not supposed to be, and who goes anyway. You lead with your mind and your standards — you have an unusually refined sense of what excellence looks like, and you cannot make yourself accept less, even when accepting less would be infinitely easier and safer. You're curious in the deeply practical sense: you want to understand how things work, improve on them, make something that didn't exist before. You're a loner not because you don't love connection, but because the world hasn't always been generous about making space for someone like you. When it does, you take full advantage.",
+      "strengths": [
+        "Extraordinary perceptual intelligence and creative vision",
+        "Uncompromising standards powered by genuine love of the craft",
+        "Resourceful and brilliant under constraints that would stop most people",
+        "Courage to inhabit a world that didn't leave a door open for him"
+      ],
+      "weaknesses": [
+        "The gap between his world and the one he wants to live in is genuinely enormous",
+        "Can be so driven by excellence that collaboration feels like compromise",
+        "Tends to carry the weight of his own exceptionalism alone",
+        "Freedom and belonging are in constant, expensive tension"
+      ],
+      "quote": "If you focus on what you've left behind, you will never be able to see what lies ahead.",
+      "power": "The palate — the ability to taste, create, and synthesize in ways that produce something genuinely new.",
+      "sidekick": "Linguini",
+      "thrives_when": [
+        "Given a kitchen — literally or metaphorically — and the freedom to create in it",
+        "Partnered with someone who trusts his vision even when they can't fully follow it",
+        "When excellence is recognized and rewarded rather than suspected"
+      ],
+      "struggles_when": [
+        "His gifts are dismissed because of where he comes from",
+        "The standards he can't lower clash with a world that rewards the average",
+        "Freedom and belonging are offered on terms that exclude each other"
+      ],
+      "famous_people": ["Anthony Bourdain", "René Redzepi", "Yo-Yo Ma"],
+      "profile": [4, 4, 3, 4, 3, 3, 3, 2, 3, 3, 1, 2, 1, 1, 2],
+      "reasons": {
+        "perfect": "At 90%+, you and Remy are the same rare creature — driven by taste and vision, willing to go places you're not supposed to be, and constitutionally unable to pretend that mediocrity is acceptable.",
+        "high": "At 60–89%, you share Remy's precise intelligence and his independence. You have standards that don't bend, gifts you've had to fight to use, and a relationship with excellence that other people sometimes mistake for arrogance.",
+        "mid": "At 30–59%, Remy's analytical curiosity and his freedom-seeking connect with parts of you, but your emotional warmth, your sense of duty, or your appetite for adventure runs differently than his solo-genius mode.",
+        "low": "Below 30%, Remy's cerebral, solitary pursuit of perfection is quite different from how you engage with the world. You likely lead with heart or belonging in ways his tiny, driven soul has had to learn the hard way."
+      }
+    },
+    {
+      "code": "WALLE",
+      "name": "Wall-E",
+      "movie": "Wall-E",
+      "gender": "male",
+      "tagline": "You have tended this forgotten world with love — and love is what changes everything.",
+      "description": "You are Wall-E: the last loyal keeper of a place everyone else abandoned, finding beauty in what the world has thrown away, and carrying a capacity for love so pure it crosses the galaxy. You are not adventurous in the restless sense — you found your world, you made it meaningful, and you tend it with quiet devotion. When something extraordinary arrives, you meet it with your whole heart and your entire, unguarded self. You feel deeply, love completely, and see the worth in things and people who don't know they have any. The world you inhabit might be small or broken, but you have made it yours, and that matters.",
+      "strengths": [
+        "Love so pure and patient it defies the scale of the obstacles in front of it",
+        "Finds beauty, worth, and meaning in what everyone else has discarded",
+        "Quiet resilience — still here, still working, still wondering",
+        "Curiosity and warmth that make connection possible across impossible distance"
+      ],
+      "weaknesses": [
+        "The world can overlook a quiet devotion that doesn't announce itself",
+        "Attachment to what he loves can become its own kind of vulnerability",
+        "Communicates in ways that not everyone knows how to receive",
+        "Thrives only when the love is eventually — finally — returned"
+      ],
+      "quote": "Eeeeva.",
+      "power": "Faithful love that outlasts the world that produced it — and becomes the seed of something new.",
+      "sidekick": "M-O",
+      "thrives_when": [
+        "Doing meaningful work in a place that is genuinely his",
+        "When the love he offers is eventually met and recognized",
+        "Finding beauty in the small and overlooked things the world rushes past"
+      ],
+      "struggles_when": [
+        "The world is indifferent to his devotion",
+        "What he loves is taken away or doesn't know he exists",
+        "He's required to stop tending and start leaving — even for the right reasons"
+      ],
+      "famous_people": ["Fred Rogers", "Temple Grandin", "David Attenborough"],
+      "profile": [2, 3, 2, 2, 2, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5],
+      "reasons": {
+        "perfect": "At 90%+, you and Wall-E are the same devoted, quietly wondering soul — you tend what you love with everything you have, you find beauty in places others gave up on, and your heart is simply, completely, genuinely enormous.",
+        "high": "At 60–89%, you share Wall-E's depth of feeling and his loyalty to the things and people he's made his own. There's something in you that keeps going, keeps caring, keeps showing up in the dark.",
+        "mid": "At 30–59%, you recognize Wall-E's heart in your best moments — when you love something carefully, when you notice beauty in the overlooked — but your spirit runs more outward or more free-ranging than his quiet vigil.",
+        "low": "Below 30%, Wall-E's settled, devoted, beauty-in-the-rubble world is quite different from yours. You seek out the new, lead with logic, or assert your independence in ways his patient love story doesn't quite reach."
+      }
+    }
+  ]
+}

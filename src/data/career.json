@@ -1,0 +1,365 @@
+{
+    "module": "career",
+    "title": "Career Personality Guide",
+    "subtitle": "Understand who you are at work and where you are going",
+    "description": "This test identifies your career personality across 3 dimensions, producing 8 types. Each type gets a full career profile including what type of worker you are, what environments you thrive in, what holds you back, specific career paths suited to you, and a personal growth roadmap.",
+    "scoring": {
+      "dimensions": [
+        {
+          "id": "BV",
+          "pole_a": { "letter": "B", "name": "Builder", "description": "Driven to create, make, and produce tangible outcomes" },
+          "pole_b": { "letter": "V", "name": "Visionary", "description": "Driven by ideas, strategy, and imagining what could exist" }
+        },
+        {
+          "id": "IS",
+          "pole_a": { "letter": "I", "name": "Independent", "description": "Works best alone or with full autonomy over their domain" },
+          "pole_b": { "letter": "S", "name": "Synergist", "description": "Works best in collaboration, energized by team dynamics" }
+        },
+        {
+          "id": "SE",
+          "pole_a": { "letter": "S", "name": "Steady", "description": "Values consistency, mastery, and long-term depth over a single domain" },
+          "pole_b": { "letter": "E", "name": "Explorer", "description": "Values variety, new challenges, and broad experience across domains" }
+        }
+      ],
+      "total_types": 8
+    },
+    "questions": [
+      { "id": "cq1", "dimension": "BV", "text": "I feel most accomplished when I can point to something I have made or built.", "pole_a_direction": true },
+      { "id": "cq2", "dimension": "BV", "text": "I am more excited by the strategy behind a project than the execution of it.", "pole_a_direction": false },
+      { "id": "cq3", "dimension": "BV", "text": "I prefer finishing tasks to brainstorming new ones.", "pole_a_direction": true },
+      { "id": "cq4", "dimension": "BV", "text": "I often see possibilities that others miss and I feel driven to pursue them.", "pole_a_direction": false },
+      { "id": "cq5", "dimension": "IS", "text": "I do my best work when I have full ownership and minimal interruptions.", "pole_a_direction": true },
+      { "id": "cq6", "dimension": "IS", "text": "I find that collaboration makes my work significantly better.", "pole_a_direction": false },
+      { "id": "cq7", "dimension": "IS", "text": "I prefer to be evaluated on my individual contribution rather than team outcomes.", "pole_a_direction": true },
+      { "id": "cq8", "dimension": "IS", "text": "I enjoy the energy of working alongside others toward a shared goal.", "pole_a_direction": false },
+      { "id": "cq9", "dimension": "SE", "text": "I would rather become deeply expert in one area than broadly skilled in many.", "pole_a_direction": true },
+      { "id": "cq10", "dimension": "SE", "text": "I get restless if I am doing the same type of work for too long.", "pole_a_direction": false },
+      { "id": "cq11", "dimension": "SE", "text": "I find deep satisfaction in mastering something completely.", "pole_a_direction": true },
+      { "id": "cq12", "dimension": "SE", "text": "I am drawn to roles that expose me to many different problems and domains.", "pole_a_direction": false },
+      { "id": "cq13", "dimension": "BV", "text": "I would rather deliver a good product today than wait for a perfect vision.", "pole_a_direction": true },
+      { "id": "cq14", "dimension": "IS", "text": "I find that I lose energy in meetings and gain it back in focused solo work.", "pole_a_direction": true },
+      { "id": "cq15", "dimension": "SE", "text": "I feel most confident when I have built a track record in a specific area.", "pole_a_direction": true }
+    ],
+    "types": [
+      {
+        "code": "BIS",
+        "name": "The Craftsman",
+        "tagline": "Excellence through mastery, built alone",
+        "description": "You are a specialist who produces work of exceptional depth. You do not need a team, you need time, focus, and a hard problem worth solving. Your best contributions come from years of concentrated investment in a single discipline.",
+        "work_style": "Solo, deep focus, long timelines, high autonomy",
+        "thrives_when": ["Given full ownership of a domain", "Evaluated on quality not speed", "Working in quiet environments", "Problem has clear right answers"],
+        "struggles_when": ["Forced into frequent collaboration", "Work is shallow or repetitive", "Constantly interrupted or micromanaged", "Results are ambiguous or unmeasurable"],
+        "strengths": [
+          "Produces work of exceptional quality and depth",
+          "Highly self-directed and requires minimal oversight",
+          "Builds rare, compounding expertise over time",
+          "Reliable and consistent in long-horizon independent work"
+        ],
+        "weaknesses": [
+          "Can become isolated and invisible to organizational decision-makers",
+          "Perfectionism often delays shipping work that is good enough",
+          "Struggles to advocate for their own contributions without a champion",
+          "Resistant to changing direction once deep into a problem"
+        ],
+        "career_paths": [
+          "Software Engineer (Senior/Staff/Principal)",
+          "Surgeon or Medical Specialist",
+          "Structural or Civil Engineer",
+          "Research Scientist",
+          "Composer or Sound Designer",
+          "Master Craftsperson or Artisan",
+          "Data Scientist",
+          "Security Researcher"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Pick one discipline and go deep. Resist the urge to diversify. Build a body of work that demonstrates mastery.",
+          "year_3_7": "Begin mentoring others in your area. Teach what you know. Writing and speaking about your craft will reveal gaps you did not know existed.",
+          "year_7_plus": "Transition into advisory, principal, or architecture roles. Your mastery becomes the standard others are measured against.",
+          "key_skill_to_develop": "Communication. Your work is exceptional but if you cannot explain it, you remain invisible to the people who could accelerate your career.",
+          "trap_to_avoid": "Perfectionism that prevents shipping. Done and good is worth more than perfect and invisible."
+        },
+        "ideal_company_type": "Companies with deep technical culture, small high-performing teams, values individual contribution",
+        "career_quote": "I do not need recognition. I need the problem to be hard enough to be worth solving."
+      },
+      {
+        "code": "BIE",
+        "name": "The Trailblazer",
+        "tagline": "Building new things, always moving on",
+        "description": "You are at your best at the beginning of things. The blank canvas, the unsolved problem, the company before it has processes. You build fast, move fast, and when the work becomes maintenance you are already thinking about what is next.",
+        "work_style": "Solo or small team, fast-paced, early stage, high ambiguity",
+        "thrives_when": ["Building something from scratch", "No established way of doing things yet", "Autonomy to make all the decisions", "Work changes every few weeks"],
+        "struggles_when": ["Maintaining existing systems", "Working within rigid processes", "Reporting in large hierarchies", "Asked to slow down and optimize"],
+        "strengths": [
+          "Thrives in ambiguous, zero-to-one situations with no playbook",
+          "Moves fast and produces tangible results under uncertainty",
+          "High tolerance for risk and early-stage chaos",
+          "Naturally spots gaps and builds toward them without needing direction"
+        ],
+        "weaknesses": [
+          "Loses energy and focus once the exciting early phase ends",
+          "Leaves a trail of near-finished projects that never quite ship",
+          "Struggles to hand off or document work for others to maintain",
+          "Can mistake constant novelty for genuine progress"
+        ],
+        "career_paths": [
+          "Startup Founder",
+          "Founding Engineer",
+          "Freelance Product Designer",
+          "Independent Consultant",
+          "Early-stage VC Scout",
+          "Creative Director",
+          "Technical Co-founder",
+          "Innovation Lead"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Accumulate a portfolio of things you have built start to finish. Even small projects count. The pattern of building is what matters.",
+          "year_3_7": "Attempt something that requires you to see it through past the exciting phase. This is your growth edge. Learning to maintain what you build is how you become truly dangerous.",
+          "year_7_plus": "Serial entrepreneurship or portfolio career. Your value is in spotting and creating, not scaling.",
+          "key_skill_to_develop": "Finishing. Your greatest risk is a trail of 80-percent-complete projects. Complete things even when they are no longer exciting.",
+          "trap_to_avoid": "Confusing novelty with progress. Starting new things to avoid the hard part of finishing old ones."
+        },
+        "ideal_company_type": "Early stage startups, innovation labs, solo freelance, founding roles only",
+        "career_quote": "Show me a blank whiteboard and I will show you what I am capable of."
+      },
+      {
+        "code": "BSS",
+        "name": "The Pillar",
+        "tagline": "The team depends on them and they love that",
+        "description": "You build things and you build them with people. You are the reliable core of any team you join, the person who makes sure things actually get done and that the team does not fall apart while doing it. Your consistency is your competitive advantage.",
+        "work_style": "Team-based, structured, consistent output, long-term focused",
+        "thrives_when": ["Part of a stable long-term team", "Clear processes and expectations", "Work is meaningful and well-defined", "Contributions are recognized collectively"],
+        "struggles_when": ["Team is chaotic or frequently changing", "No clear structure or direction", "Work is all strategy and no execution", "Isolated from teammates"],
+        "strengths": [
+          "Exceptionally dependable — the team's most consistent performer",
+          "Builds and maintains the operational foundations others rely on",
+          "Integrates well into teams and elevates collective output",
+          "Long-term focus means work compounds in value over time"
+        ],
+        "weaknesses": [
+          "Comfort with stability can lead to staying in roles past their growth potential",
+          "Avoids strategic risk-taking that could accelerate their career",
+          "Individual contributions can get lost inside team success",
+          "Struggles when asked to operate with ambiguity or without structure"
+        ],
+        "career_paths": [
+          "Engineering Manager",
+          "Project Manager",
+          "Operations Manager",
+          "Senior Product Manager",
+          "Department Lead",
+          "Construction or Manufacturing Manager",
+          "Hospital or Healthcare Administrator",
+          "Team Lead at any company"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Be the most reliable person on the team. Consistency over brilliance. Show that you can be counted on for anything.",
+          "year_3_7": "Step into informal leadership. Mentor junior team members. Start running projects, not just contributing to them.",
+          "year_7_plus": "Management or Director track. Your value is in multiplying team output, not your individual contribution.",
+          "key_skill_to_develop": "Strategic thinking. You are strong on execution but the higher you go the more you need to think three moves ahead.",
+          "trap_to_avoid": "Staying in individual contributor roles too long out of comfort. Your gifts are wasted without a team to anchor."
+        },
+        "ideal_company_type": "Mid-size to large companies with established teams, clear career ladders, collaborative culture",
+        "career_quote": "I will not let this team down. That is not a promise, that is just who I am."
+      },
+      {
+        "code": "BSE",
+        "name": "The Connector Builder",
+        "tagline": "Builds bridges between people and ideas",
+        "description": "You build things that connect people, teams, or ideas. You are most energized when your work creates collaboration or enables others to work better together. You are the person who sees how the pieces fit and you do something about it.",
+        "work_style": "Collaborative, cross-functional, varied projects, relationship-driven",
+        "thrives_when": ["Working across multiple teams or departments", "Projects involve bringing people together", "Variety of challenges and stakeholders", "Can move fluidly between domains"],
+        "struggles_when": ["Siloed in a single team with no cross-pollination", "Work has no human element", "Repetitive without variety", "Politics block collaboration"],
+        "strengths": [
+          "Builds trust and relationships across organizational boundaries with ease",
+          "Sees the full system where others only see their part",
+          "Adapts quickly to new domains, teams, and stakeholder dynamics",
+          "Creates the collaboration infrastructure that helps everyone work better"
+        ],
+        "weaknesses": [
+          "Spread too thin across too many initiatives without clear ownership",
+          "Can become indispensable to others' work while building no clear body of work themselves",
+          "Variety-seeking can prevent the deep expertise that enables senior advancement",
+          "Difficulty saying no leads to chronic overcommitment"
+        ],
+        "career_paths": [
+          "Product Manager",
+          "Business Development Manager",
+          "Community Manager",
+          "People Operations Lead",
+          "Partnership Manager",
+          "UX Researcher",
+          "Agile Coach or Scrum Master",
+          "Chief of Staff"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Build your internal network and your reputation as the person who makes collaboration happen. Map the human landscape of your organization.",
+          "year_3_7": "Take on roles that span organizational boundaries. Cross-functional projects are your training ground.",
+          "year_7_plus": "Senior partnership, business development, or organizational design roles. You build the infrastructure that helps everyone work better.",
+          "key_skill_to_develop": "Saying no. Your strength in connecting means you can be spread too thin. Learning to prioritize which connections matter most is critical.",
+          "trap_to_avoid": "Becoming the person who facilitates everyone else's work without building a clear body of work for yourself."
+        },
+        "ideal_company_type": "Medium to large companies with many stakeholders, cross-functional teams, collaborative culture",
+        "career_quote": "The best outcome here requires three teams who do not usually talk to each other. Let me fix that."
+      },
+      {
+        "code": "VIS",
+        "name": "The Architect of Ideas",
+        "tagline": "Builds the future in their mind first",
+        "description": "You are a strategic soloist. You develop frameworks, strategies, and visions that other people then execute. You work best alone with a hard thinking problem and you produce your best work in deep, uninterrupted focus. Your deliverable is not a product, it is a new way of seeing.",
+        "work_style": "Independent, strategic, long-horizon, research and theory-heavy",
+        "thrives_when": ["Tasked with defining strategy or direction", "Given time and space to think deeply", "Work requires original thinking", "Results measured over months not days"],
+        "struggles_when": ["Forced into rapid execution mode", "Ideas are not valued, only output is", "Heavy administrative or process work", "Constant meetings fragment thinking"],
+        "strengths": [
+          "Produces original frameworks and strategies that shape long-term direction",
+          "Capable of extraordinary depth and nuance in complex problem spaces",
+          "Self-directed and thrives without external motivation or structure",
+          "Builds compounding intellectual authority over time"
+        ],
+        "weaknesses": [
+          "Ideas can remain theoretical without strong execution partners",
+          "Struggles to communicate thinking in ways accessible to non-experts",
+          "Can become detached from operational reality and market feedback",
+          "Works slowly by design, which creates friction in fast-moving environments"
+        ],
+        "career_paths": [
+          "Strategy Consultant",
+          "Chief Strategy Officer",
+          "Research Director",
+          "Academic Professor or Researcher",
+          "Policy Advisor",
+          "Think Tank Analyst",
+          "Author or Theorist",
+          "Principal Scientist"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Build credibility by making one or two predictions or frameworks that prove out. Write publicly. Put your thinking in the world.",
+          "year_3_7": "Develop a signature methodology or framework that you become known for. Specificity builds authority faster than breadth.",
+          "year_7_plus": "Advisory, board, or thought leadership roles. You are too senior to execute. Your job is to shape direction.",
+          "key_skill_to_develop": "Translation. Your ideas are ahead of the room. Learning to bring people with you rather than leaving them behind is the key to impact.",
+          "trap_to_avoid": "Ivory tower thinking. The best strategies are stress-tested against reality. Build feedback loops into your process."
+        },
+        "ideal_company_type": "Research institutions, strategy consultancies, think tanks, senior advisory roles at any company",
+        "career_quote": "I do not need to build it. I need to understand it well enough to know how it should be built."
+      },
+      {
+        "code": "VIE",
+        "name": "The Pioneer",
+        "tagline": "Always six steps ahead of the industry",
+        "description": "You are drawn to the edge of what is known. You spot emerging trends, technologies, and opportunities before almost anyone else. You work alone not because you dislike people but because no one else is thinking about what you are thinking about yet.",
+        "work_style": "Independent, exploratory, trend-forward, comfortable with high uncertainty",
+        "thrives_when": ["Working on problems that do not have established answers", "Freedom to explore adjacent domains", "Long runway before results are expected", "Trusted to self-direct completely"],
+        "struggles_when": ["Asked to work on yesterday's problems", "Heavy process or bureaucracy", "Required to justify every exploratory step", "Surrounded by people who resist new ideas"],
+        "strengths": [
+          "Spots emerging opportunities and technologies before they become obvious",
+          "Operates comfortably at the frontier where no roadmap exists",
+          "Builds conviction through first-principles thinking rather than consensus",
+          "Self-sufficient and energized by the unknown rather than paralyzed by it"
+        ],
+        "weaknesses": [
+          "Being early is often indistinguishable from being wrong — timing is a persistent challenge",
+          "Finds it hard to build credibility within organizations that reward established thinking",
+          "Can chase the next horizon before the current one has been validated",
+          "Struggles in environments where everything must be justified with precedent"
+        ],
+        "career_paths": [
+          "Venture Capitalist",
+          "Futurist or Trend Analyst",
+          "AI or Emerging Technology Researcher",
+          "Startup Advisor",
+          "Angel Investor",
+          "Innovation Consultant",
+          "Technology Forecaster",
+          "First-principles Entrepreneur"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Document your predictions and analyses. Start a newsletter, blog, or public writing practice. Your ideas need an audience to create leverage.",
+          "year_3_7": "Build a track record of being right about things before they were obvious. This track record is your career asset.",
+          "year_7_plus": "VC, advisory, or founder roles. You are most valuable at the table where bets are being made.",
+          "key_skill_to_develop": "Patience. Being early is often indistinguishable from being wrong. Learning to stay the course on a conviction is hard but essential.",
+          "trap_to_avoid": "Chasing novelty for its own sake. Not every emerging thing deserves your time. Developing filters is as important as developing radar."
+        },
+        "ideal_company_type": "VC-backed startups, research labs, advisory roles, self-directed consulting",
+        "career_quote": "This does not exist yet but in three years everyone will need it."
+      },
+      {
+        "code": "VSS",
+        "name": "The Visionary Leader",
+        "tagline": "Inspires people toward a future only they can see",
+        "description": "You combine strategic vision with the ability to bring people along. You are at your best leading a team toward something ambitious and new. You do not just have the vision, you have the ability to make others believe in it as much as you do.",
+        "work_style": "Team leadership, inspiring direction-setting, long-term planning, high communication",
+        "thrives_when": ["Leading a team through significant change or growth", "Trusted to define direction not just execute it", "Work involves inspiring and motivating people", "Vision is bold and timeline is long"],
+        "struggles_when": ["Micromanaged or given no strategic input", "Team is disengaged or resistant", "Vision is not honored by organization", "Forced into pure execution without leadership dimension"],
+        "strengths": [
+          "Rallies teams around ambitious goals with genuine conviction",
+          "Balances long-term vision with the interpersonal skill to execute it through people",
+          "Creates organizational belief that makes difficult change possible",
+          "Steady and consistent in direction, giving teams something to orient around"
+        ],
+        "weaknesses": [
+          "Can fall in love with the vision while underestimating execution complexity",
+          "Needs engaged, willing teams — becomes frustrated and ineffective with resistant people",
+          "Operational details often slip through without strong systems in place",
+          "Long-term orientation can create impatience with short-term results that stakeholders require"
+        ],
+        "career_paths": [
+          "CEO or Co-founder",
+          "Chief Product Officer",
+          "Head of Growth or Marketing",
+          "Director of Innovation",
+          "Non-profit Executive Director",
+          "Dean or University President",
+          "Senior VP at scaling company",
+          "Creative Director at major brand"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Find opportunities to lead small teams even informally. Test your ability to inspire and organize people around a goal.",
+          "year_3_7": "Move into formal leadership roles. Learn the hard parts: conflict resolution, performance management, organizational dynamics.",
+          "year_7_plus": "Executive or founder track. You are built for the top of an organization. Get there with a track record of building teams that shipped.",
+          "key_skill_to_develop": "Operational discipline. Great vision without execution infrastructure fails. Building or hiring people who complement your visionary weakness is essential.",
+          "trap_to_avoid": "Falling in love with the vision and ignoring the team's capacity to execute it. Vision is only valuable when it lands."
+        },
+        "ideal_company_type": "Growth-stage startups, mission-driven organizations, companies in transformation",
+        "career_quote": "I can see where we need to go. Let me show you why it matters and how we get there together."
+      },
+      {
+        "code": "VSE",
+        "name": "The Catalyst Leader",
+        "tagline": "Moves fast, drags the industry with them",
+        "description": "You are the most energizing type in any organization. You see the future, you love people, and you cannot stay in one lane. You are most powerful at the intersection of strategy and people, pushing organizations to evolve faster than they thought possible.",
+        "work_style": "Cross-functional leadership, high velocity, strategic but hands-on, variety-seeking",
+        "thrives_when": ["Leading transformation across multiple teams", "Work spans strategy and people simultaneously", "Constant new challenges and contexts", "Trusted to disrupt existing ways of working"],
+        "struggles_when": ["Stuck in a single domain for too long", "Organization is resistant to change", "No people dimension to the work", "Vision and execution are both blocked by bureaucracy"],
+        "strengths": [
+          "Holds strategy, people, and execution simultaneously — a rare and powerful combination",
+          "Drives organizational change faster than any other type",
+          "Energizes and aligns teams across functions through sheer conviction and adaptability",
+          "Generates momentum that compounds as they move between domains"
+        ],
+        "weaknesses": [
+          "Pace can exhaust teams who do not operate at the same intensity",
+          "Breadth-seeking can prevent the deep mastery that establishes long-term authority",
+          "Moves between challenges quickly, sometimes before the previous one has fully landed",
+          "High expectations of others creates friction with those who need more time and stability"
+        ],
+        "career_paths": [
+          "Chief Operating Officer",
+          "General Manager",
+          "Head of Product at scaling company",
+          "Transformation Consultant",
+          "Founder of high-growth startup",
+          "Managing Director",
+          "Director of People and Culture",
+          "Executive Coach"
+        ],
+        "growth_roadmap": {
+          "year_1_3": "Collect as many different organizational experiences as possible. Work in different functions, different company sizes, different stages.",
+          "year_3_7": "Develop a signature approach to organizational change. You are a practitioner, so build a methodology from your experience.",
+          "year_7_plus": "COO, GMD, or founder roles. You are the rare type who can hold both strategy and execution and people simultaneously. The market rewards this.",
+          "key_skill_to_develop": "Depth. Your breadth is exceptional but organizations need leaders who can go deep on something when required. Choose one area to master alongside your general excellence.",
+          "trap_to_avoid": "Burning out the teams around you. Your pace and vision can be exhausting for people who do not operate at your level. Learn to calibrate."
+        },
+        "ideal_company_type": "High-growth companies, transformation projects, any organization that needs to evolve rapidly",
+        "career_quote": "I do not want to run one thing. I want to change how the whole thing runs."
+      }
+    ]
+  }

@@ -1,0 +1,225 @@
+{
+    "module": "friendship",
+    "title": "Friend Chemistry Test",
+    "subtitle": "Discover your friendship personality and how your group connects",
+    "description": "2 to 5 people each answer the same questions. Each gets their own friendship personality type. Then a group report shows how all personalities interact, who balances who, potential friction points, and what makes this specific group special.",
+    "players": { "min": 2, "max": 5 },
+    "name_fields": "Each player enters their own name before starting",
+    "scoring": {
+      "dimensions": [
+        {
+          "id": "GS",
+          "pole_a": { "letter": "G", "name": "Giver", "description": "Leads with giving, taking care of others, putting the group first" },
+          "pole_b": { "letter": "S", "name": "Spark", "description": "Brings energy, ideas, and momentum to the group" }
+        },
+        {
+          "id": "AH",
+          "pole_a": { "letter": "A", "name": "Anchor", "description": "Provides stability, consistency, and emotional grounding" },
+          "pole_b": { "letter": "H", "name": "Horizon", "description": "Always pushing the group toward new experiences and growth" }
+        },
+        {
+          "id": "OD",
+          "pole_a": { "letter": "O", "name": "Open", "description": "Emotionally transparent, vulnerable, invites deep connection" },
+          "pole_b": { "letter": "D", "name": "Depth", "description": "Selective in sharing, creates intimacy through quality not quantity" }
+        }
+      ],
+      "total_types": 8
+    },
+    "questions": [
+      { "id": "fq1", "dimension": "GS", "text": "I am usually the one who checks in on friends when something seems off.", "pole_a_direction": true },
+      { "id": "fq2", "dimension": "GS", "text": "I am usually the one who comes up with new ideas for what the group should do.", "pole_a_direction": false },
+      { "id": "fq3", "dimension": "GS", "text": "I feel most fulfilled in friendships when I am helping someone through something.", "pole_a_direction": true },
+      { "id": "fq4", "dimension": "GS", "text": "I feel most fulfilled when I am bringing excitement or new energy to the group.", "pole_a_direction": false },
+      { "id": "fq5", "dimension": "AH", "text": "My friends describe me as the reliable, always-there one.", "pole_a_direction": true },
+      { "id": "fq6", "dimension": "AH", "text": "I am the one who pushes friends to try things outside their comfort zone.", "pole_a_direction": false },
+      { "id": "fq7", "dimension": "AH", "text": "I value long-standing friendships over exciting new ones.", "pole_a_direction": true },
+      { "id": "fq8", "dimension": "AH", "text": "I get a bit restless in friendships that have settled into total routine.", "pole_a_direction": false },
+      { "id": "fq9", "dimension": "OD", "text": "I share my feelings and personal struggles with close friends quite openly.", "pole_a_direction": true },
+      { "id": "fq10", "dimension": "OD", "text": "I am more selective about what I share, preferring depth over openness.", "pole_a_direction": false },
+      { "id": "fq11", "dimension": "OD", "text": "I feel closer to friends after we have been vulnerable together.", "pole_a_direction": true },
+      { "id": "fq12", "dimension": "OD", "text": "I build friendship through shared experiences more than shared feelings.", "pole_a_direction": false },
+      { "id": "fq13", "dimension": "GS", "text": "I often put the group's comfort above my own preferences when making plans.", "pole_a_direction": true },
+      { "id": "fq14", "dimension": "AH", "text": "I remember important dates and anniversaries for my close friends.", "pole_a_direction": true },
+      { "id": "fq15", "dimension": "OD", "text": "I can tell when a friend group needs a serious honest conversation and I am willing to start it.", "pole_a_direction": true }
+    ],
+    "types": [
+      {
+        "code": "GAO",
+        "name": "The Heart",
+        "tagline": "The emotional core of every group",
+        "description": "You are the person who holds the group together emotionally. You notice when someone is struggling before they say anything. You give more than you take and you do it genuinely, not for recognition. Every group that has a Heart is lucky.",
+        "role_in_group": "Emotional anchor and caretaker",
+        "strengths": ["Creates psychological safety", "Remembers everyone's struggles", "The first call in a crisis", "Makes people feel truly seen"],
+        "watch_out_for": ["Takes on too much of others' pain", "May suppress own needs", "Group can become dependent", "Burnout without reciprocity"],
+        "best_matches": ["SAO", "GAD", "SAH"],
+        "friction_with": ["SHD", "GHD"],
+        "group_dynamic_note": "In a group with multiple Hearts, the emotional atmosphere is incredibly warm but decisions can be difficult. At least one Anchor or Spark is needed for balance.",
+        "quote": "I am fine is a sentence I do not accept from people I care about."
+      },
+      {
+        "code": "GAD",
+        "name": "The Vault",
+        "tagline": "What you tell them stays with them forever",
+        "description": "You are the person people come to when they need to say something they have never said out loud. You listen completely, judge nothing, and never share what was shared. You build friendship slowly but what you build lasts forever.",
+        "role_in_group": "Trusted confidant and silent stabilizer",
+        "strengths": ["Absolute discretion", "Creates deepest trust", "Steady and non-reactive", "Remembers and honors vulnerability"],
+        "watch_out_for": ["May seem emotionally unavailable from outside", "Slow to form new friendships", "Can hold too much without releasing", "Group may not fully know them"],
+        "best_matches": ["SAO", "GAO", "SHO"],
+        "friction_with": ["SHO", "GHO"],
+        "group_dynamic_note": "The Vault is most valuable in small, intimate groups. In large groups they can become invisible. Pair with a Spark or Horizon type to help them feel included.",
+        "quote": "I will never tell anyone what you just told me."
+      },
+      {
+        "code": "GHO",
+        "name": "The Cheerleader",
+        "tagline": "Your hype person, your biggest fan",
+        "description": "You push your friends to grow and you celebrate every step of it. You are the one who says you should absolutely do it and means it completely. Your enthusiasm for other people's lives is genuine and it changes people.",
+        "role_in_group": "Growth motivator and emotional amplifier",
+        "strengths": ["Infectious belief in others", "Creates positive momentum", "Celebrates others loudly", "Pushes for growth gently"],
+        "watch_out_for": ["Can project own ambitions onto others", "May avoid sitting with negative emotions", "Toxic positivity risk", "Own struggles may go unnoticed"],
+        "best_matches": ["GAO", "SAD", "GAD"],
+        "friction_with": ["GAD", "SAD"],
+        "group_dynamic_note": "The Cheerleader elevates group energy dramatically. In groups with too many Anchors or Depth types, they can feel misunderstood. They need at least one Spark type to mirror their energy.",
+        "quote": "I genuinely believe in you more than you believe in yourself right now."
+      },
+      {
+        "code": "GHD",
+        "name": "The Guide",
+        "tagline": "Quietly steering everyone toward something better",
+        "description": "You see where your friends could grow and you nudge them there without making it feel like pressure. You are the strategic heart of the group, holding both care and direction simultaneously. Your friends become better people for knowing you.",
+        "role_in_group": "Wise advisor and direction-setter",
+        "strengths": ["Sees long-term potential in friends", "Balanced between heart and strategy", "Never loses sight of what matters", "Pushes growth through wisdom not force"],
+        "watch_out_for": ["Can feel like unsolicited guidance", "May be seen as controlling by some", "Own vulnerability sometimes gets strategized away", "Can be exhausting to keep up with"],
+        "best_matches": ["SAO", "GAO", "SHO"],
+        "friction_with": ["GAO", "SAD"],
+        "group_dynamic_note": "Groups with a Guide feel purposeful and directional. Too many Guides creates a group of people all trying to steer each other. They work best when paired with Open types who ground them emotionally.",
+        "quote": "I care about where you are going more than where you are right now."
+      },
+      {
+        "code": "SAO",
+        "name": "The Spark",
+        "tagline": "The reason the group chat is always active",
+        "description": "You are the energy that makes a group feel alive. You bring ideas, excitement, and the electric feeling that something good is about to happen. You are emotionally open, you laugh loudly, you share freely, and people love you for it.",
+        "role_in_group": "Energy source and connector",
+        "strengths": ["Makes everyone feel included", "Brings spontaneity and joy", "Creates memories", "Emotionally accessible and warm"],
+        "watch_out_for": ["Can dominate group energy", "May not notice when others need quiet", "Oversharing can create group fatigue", "Needs reciprocal energy to sustain"],
+        "best_matches": ["GAD", "GAO", "GHD"],
+        "friction_with": ["GAD", "SAD"],
+        "group_dynamic_note": "The Spark is the heartbeat of any social group. Multiple Sparks creates electric and sometimes chaotic energy. Balance with at least one Anchor type to prevent burnout.",
+        "quote": "We should literally do something. Right now. All of us."
+      },
+      {
+        "code": "SAD",
+        "name": "The Wild Card",
+        "tagline": "You never know what they are going to say and you love it",
+        "description": "You bring unpredictability and edge to any friend group. You say the thing no one else says, suggest the plan no one expected, and somehow make every gathering feel like a chapter worth remembering. People never get bored around you.",
+        "role_in_group": "Disruptor and adventure-bringer",
+        "strengths": ["Keeps the group from stagnating", "Fearlessly honest", "Creates unforgettable experiences", "Challenges comfortable patterns"],
+        "watch_out_for": ["Can be exhausting over time", "Emotional depth can feel inaccessible", "May challenge unnecessarily", "Friends may not know how to support them"],
+        "best_matches": ["GAO", "GHO", "GAD"],
+        "friction_with": ["GAO", "SAO"],
+        "group_dynamic_note": "The Wild Card is essential but the group needs Anchor types to balance them. In groups of all Wild Cards, plans never materialize. They need at least one Heart or Vault to keep them grounded.",
+        "quote": "What if we just did not do the normal thing for once."
+      },
+      {
+        "code": "SHO",
+        "name": "The Catalyst",
+        "tagline": "Before them: fine. After them: transformed.",
+        "description": "You do not just add energy to a group, you change its trajectory. You push friends toward new versions of themselves and you do it openly and loudly. You are the friend who was there right before everything changed.",
+        "role_in_group": "Transformation agent and growth accelerator",
+        "strengths": ["Genuinely transforms the people around them", "Brave in conversation", "Brings new perspectives constantly", "Open and energizing simultaneously"],
+        "watch_out_for": ["Change can feel destabilizing for Anchor types", "Can move too fast for some friends", "May leave relationships when growth plateaus", "Own need for stability can go unmet"],
+        "best_matches": ["GAD", "GAO", "GHD"],
+        "friction_with": ["GAD", "GAO"],
+        "group_dynamic_note": "The Catalyst is most effective in small to medium groups where their energy can be felt by everyone. In large groups they can scatter their impact. Best paired with a Vault or Heart who will stay after the transformation.",
+        "quote": "You have changed so much since we became friends and I mean that as the highest compliment."
+      },
+      {
+        "code": "SHD",
+        "name": "The Ghost",
+        "tagline": "Rare to find, impossible to forget",
+        "description": "You are not always present but when you are, something shifts. You are selective, perceptive, and you bring a quality of attention that most people never experience from anyone. Your friends may see you infrequently but they always leave feeling known.",
+        "role_in_group": "Rare presence and depth-bringer",
+        "strengths": ["Brings unique outside perspective", "Quality over quantity in connection", "Never boring or predictable", "Sees things in friends they do not see themselves"],
+        "watch_out_for": ["Can feel abandoning during hard times", "Group may not fully trust consistency", "Drift can become disconnection", "Difficult to integrate into regular group rhythms"],
+        "best_matches": ["GAO", "GAD", "GHO"],
+        "friction_with": ["GAO", "SAO"],
+        "group_dynamic_note": "Groups with a Ghost have a mysterious quality that other groups notice and envy. The Ghost needs patient friends who do not punish absence. Best matched with Hearts and Vaults who hold space without conditions.",
+        "quote": "I know we barely talk but I think about you more than you know."
+      }
+    ],
+    "group_report": {
+      "description": "After all players complete the test, a group report is generated showing the following sections. Each section is hidden by default with a 'Show More' button.",
+      "sections": [
+        {
+          "id": "group_overview",
+          "title": "Your Friendship Constellation",
+          "always_visible": true,
+          "content_note": "Shows all players' types with their card, always visible. The visual centerpiece of the report."
+        },
+        {
+          "id": "group_strengths",
+          "title": "What Makes Your Group Exceptional",
+          "always_visible": false,
+          "content_note": "Based on the combination of types present, this section describes what this specific group dynamic excels at. Calculated from the type combination matrix."
+        },
+        {
+          "id": "friction_points",
+          "title": "Where You Might Clash",
+          "always_visible": false,
+          "content_note": "Honest analysis of where the type combinations in this group create natural tension. Not negative, framed as growth edges."
+        },
+        {
+          "id": "individual_roles",
+          "title": "Each Person's Role in This Group",
+          "always_visible": false,
+          "content_note": "For each person by name, a short paragraph about how their specific type functions within this specific group composition."
+        },
+        {
+          "id": "missing_energy",
+          "title": "What Your Group Could Use More Of",
+          "always_visible": false,
+          "content_note": "Based on which type dimensions are missing from the group, a friendly observation about what kind of energy could complement the group."
+        },
+        {
+          "id": "friendship_score",
+          "title": "Your Group Chemistry Score",
+          "always_visible": false,
+          "content_note": "A calculated score out of 100 based on compatibility ratings between all present types. Shown with a brief explanation of what the score means."
+        }
+      ],
+      "compatibility_matrix": {
+        "note": "Each pair of types has a compatibility rating 1-5 and a short dynamic description. Used to calculate group score and generate individual pair insights.",
+        "pairs": [
+          { "types": ["GAO", "GAD"], "rating": 4, "summary": "Heart and Vault, the foundation every great friendship group is built on." },
+          { "types": ["GAO", "GHO"], "rating": 4, "summary": "The Heart nurtures while the Cheerleader amplifies. Warm and growth-oriented." },
+          { "types": ["GAO", "GHD"], "rating": 3, "summary": "The Heart's emotional focus can clash with the Guide's strategic lens, but both care deeply about the group's wellbeing." },
+          { "types": ["GAO", "SAO"], "rating": 4, "summary": "The Heart gives steadiness while the Spark gives energy. Together they cover warmth and excitement beautifully." },
+          { "types": ["GAO", "SAD"], "rating": 4, "summary": "The Heart softens the Wild Card. The Wild Card keeps the Heart from being too safe." },
+          { "types": ["GAO", "SHO"], "rating": 3, "summary": "The Heart grounds the Catalyst's intensity. The Catalyst helps the Heart grow." },
+          { "types": ["GAO", "SHD"], "rating": 3, "summary": "The Ghost's distance frustrates the Heart but their rare presence is deeply felt." },
+          { "types": ["GAD", "GHO"], "rating": 3, "summary": "The Vault's quiet depth can feel stifled by the Cheerleader's relentless positivity, but they balance each other when they sync." },
+          { "types": ["GAD", "GHD"], "rating": 4, "summary": "Vault and Guide, both selective and deep. Can talk for hours when they open up." },
+          { "types": ["GAD", "SAO"], "rating": 5, "summary": "The Vault holds the Spark's depth. The Spark lights up the Vault's quiet world." },
+          { "types": ["GAD", "SAD"], "rating": 3, "summary": "The Vault and the Wild Card orbit each other with fascination and occasional frustration." },
+          { "types": ["GAD", "SHO"], "rating": 4, "summary": "The Vault grounds the Catalyst. The Catalyst helps the Vault share more." },
+          { "types": ["GAD", "SHD"], "rating": 4, "summary": "Two selective, depth-oriented types who take friendship seriously. Trust builds slowly but becomes unshakeable." },
+          { "types": ["GHO", "GHD"], "rating": 3, "summary": "Both push friends toward growth but through different styles. The Cheerleader's enthusiasm occasionally steamrolls the Guide's careful steering." },
+          { "types": ["GHO", "SAO"], "rating": 5, "summary": "Pure momentum. This pairing creates the most energy in any group." },
+          { "types": ["GHO", "SAD"], "rating": 3, "summary": "Both push growth but through different means. Can feel competitive." },
+          { "types": ["GHO", "SHO"], "rating": 4, "summary": "Two Horizon types who both love pushing growth. The Cheerleader's warmth and the Catalyst's boldness create a powerful engine for change." },
+          { "types": ["GHO", "SHD"], "rating": 2, "summary": "The Cheerleader's high visibility and the Ghost's selective presence create a fundamental mismatch. The Ghost can feel steamrolled, the Cheerleader can feel ignored." },
+          { "types": ["GHD", "SAO"], "rating": 4, "summary": "The Guide's wisdom and the Spark's energy make an excellent pair. The Spark gets direction, the Guide gets momentum." },
+          { "types": ["GHD", "SAD"], "rating": 3, "summary": "The Guide's strategy meets the Wild Card's chaos. Fascinating but tiring." },
+          { "types": ["GHD", "SHO"], "rating": 4, "summary": "Two growth-oriented types who see the big picture together." },
+          { "types": ["GHD", "SHD"], "rating": 3, "summary": "Both are selective and purposeful but approach depth differently. Can feel like a slow game of chess — rewarding when it lands." },
+          { "types": ["SAO", "SAD"], "rating": 3, "summary": "Two Sparks with different emotional styles. Electric but can short-circuit." },
+          { "types": ["SAO", "SHO"], "rating": 4, "summary": "Two Horizon Sparks who generate extraordinary momentum together. Relationships move fast and feel alive — they just need an Anchor nearby." },
+          { "types": ["SAO", "SHD"], "rating": 2, "summary": "The Spark's constant presence and the Ghost's selective availability create tension. The Spark may feel rejected; the Ghost may feel overwhelmed." },
+          { "types": ["SAD", "SHO"], "rating": 4, "summary": "Wild Card and Catalyst are both disruptors who love breaking patterns. Together they push the group into uncharted territory — thrilling, occasionally destabilizing." },
+          { "types": ["SAD", "SHD"], "rating": 3, "summary": "Both are unpredictable and hard to fully know. They respect each other's edges but rarely go deep enough to truly connect." },
+          { "types": ["SHO", "SHD"], "rating": 3, "summary": "Both push the group outward but rarely slow down enough to connect with each other." }
+        ]
+      }
+    }
+  }
