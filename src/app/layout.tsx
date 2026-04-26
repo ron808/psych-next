@@ -25,7 +25,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://psych.site'),
+  metadataBase: new URL('https://psych-site.rohitnaidusiriporam.com'),
   title: {
     default: 'PSYCH.SITE — Know Yourself',
     template: '%s | PSYCH.SITE',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://psych.site',
+    url: 'https://psych-site.rohitnaidusiriporam.com',
     siteName: 'PSYCH.SITE',
     title: 'PSYCH.SITE — Know Yourself',
     description:

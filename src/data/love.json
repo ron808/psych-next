@@ -1,321 +1,729 @@
 {
-    "module": "love",
-    "title": "Love Personality Test",
-    "subtitle": "Discover how you love, and how two loves interact",
-    "modes": {
-      "solo": {
-        "description": "One person answers questions and receives their love personality type",
-        "players": 1,
-        "name_fields": ["Your name"]
-      },
-      "duet": {
-        "description": "Two people each answer questions separately, then get a combined compatibility report",
-        "players": 2,
-        "name_fields": ["Partner 1 name", "Partner 2 name"],
-        "report_note": "Each person gets their own love type first, then a combined compatibility analysis is shown"
-      }
+  "module": "love",
+  "title": "Love Personality Test",
+  "subtitle": "Discover how you love, and how two loves interact",
+  "modes": {
+    "solo": {
+      "description": "One person answers questions and receives their love personality type",
+      "players": 1,
+      "name_fields": [
+        "Your name"
+      ]
     },
-    "scoring": {
-      "dimensions": [
-        {
-          "id": "AP",
-          "pole_a": { "letter": "A", "name": "Avoidant", "description": "Uncomfortable with too much closeness, values independence in love" },
-          "pole_b": { "letter": "P", "name": "Pursuer", "description": "Leans into closeness, seeks reassurance and deep bonding" }
-        },
-        {
-          "id": "LG",
-          "pole_a": { "letter": "L", "name": "Lover", "description": "Leads with emotion, vulnerability, and romantic expression" },
-          "pole_b": { "letter": "G", "name": "Guardian", "description": "Leads with protection, stability, and practical devotion" }
-        },
-        {
-          "id": "DW",
-          "pole_a": { "letter": "D", "name": "Depth-Seeker", "description": "Needs profound emotional intimacy and full transparency" },
-          "pole_b": { "letter": "W", "name": "Wonder-Keeper", "description": "Preserves mystery and individuality even within love" }
-        }
+    "duet": {
+      "description": "Two people each answer questions separately, then get a combined compatibility report",
+      "players": 2,
+      "name_fields": [
+        "Partner 1 name",
+        "Partner 2 name"
       ],
-      "total_types": 8
-    },
-    "questions": [
-      { "id": "lq1", "dimension": "AP", "text": "I feel most loved when someone gives me space to be independent.", "pole_a_direction": true },
-      { "id": "lq2", "dimension": "AP", "text": "I worry when my partner does not respond to messages for a long time.", "pole_a_direction": false },
-      { "id": "lq3", "dimension": "AP", "text": "I need alone time to feel like myself even in a relationship.", "pole_a_direction": true },
-      { "id": "lq4", "dimension": "AP", "text": "Physical and emotional closeness makes me feel secure, not smothered.", "pole_a_direction": false },
-      { "id": "lq5", "dimension": "LG", "text": "I express love through words, vulnerability, and emotional openness.", "pole_a_direction": true },
-      { "id": "lq6", "dimension": "LG", "text": "I show love by taking care of practical things so my partner does not have to.", "pole_a_direction": false },
-      { "id": "lq7", "dimension": "LG", "text": "I fall in love with how someone makes me feel, not just what they do.", "pole_a_direction": true },
-      { "id": "lq8", "dimension": "LG", "text": "I feel most loving when I can protect someone from pain or stress.", "pole_a_direction": false },
-      { "id": "lq9", "dimension": "DW", "text": "I want my partner to know every part of me, even the ugly parts.", "pole_a_direction": true },
-      { "id": "lq10", "dimension": "DW", "text": "I believe keeping some mystery alive is healthy in a long relationship.", "pole_a_direction": false },
-      { "id": "lq11", "dimension": "DW", "text": "I feel most connected when we have talked about our deepest fears together.", "pole_a_direction": true },
-      { "id": "lq12", "dimension": "DW", "text": "I value having my own inner world that even my partner does not fully access.", "pole_a_direction": false },
-      { "id": "lq13", "dimension": "AP", "text": "I sometimes feel like relationships ask too much of me emotionally.", "pole_a_direction": true },
-      { "id": "lq14", "dimension": "LG", "text": "I remember small details about my partner and use them to make them feel seen.", "pole_a_direction": false },
-      { "id": "lq15", "dimension": "DW", "text": "I am not fully satisfied in a relationship unless we have discussed our pasts completely.", "pole_a_direction": true }
-    ],
-    "types": [
+      "report_note": "Each person gets their own love type first, then a combined compatibility analysis is shown"
+    }
+  },
+  "scoring": {
+    "dimensions": [
       {
-        "code": "ALD",
-        "name": "The Romantic Lone Wolf",
-        "tagline": "Loves deeply from a careful distance",
-        "description": "You feel love intensely but you need space to process it on your own terms. You are emotionally expressive when you feel safe but fiercely independent when you do not. You are not cold, you are careful. The right person will feel like freedom, not a cage.",
-        "strengths": ["Emotionally authentic", "Independent and self-sufficient", "Loves without losing self", "Deeply loyal when committed"],
-        "challenges": ["Fear of engulfment", "Pulls away when things get intense", "Hard to read for partners", "Slow to fully commit"],
-        "love_language": "Quality time with clear personal space built in",
-        "needs_in_partner": [
-          "Someone emotionally secure and self-sufficient",
-          "A partner who respects space without taking it personally",
-          "Consistency without clinginess",
-          "Someone who sees independence as a strength, not a threat"
-        ],
-        "red_flags": [
-          "Partners who interpret every moment of distance as rejection",
-          "Someone who needs daily reassurance to feel loved",
-          "People who escalate emotionally when given space",
-          "Partners who view alone time as a sign something is wrong"
-        ],
-        "growth_edge": "Leaning into vulnerability instead of retreating when love grows",
-        "famous_archetype": "The artist who loves completely but cannot be owned",
-        "compatibility": {
-          "ALW": { "rating": 5, "summary": "Two independent people who respect each other's space, beautiful balance" },
-          "AGD": { "rating": 4, "summary": "The Guardian's stability helps the Lone Wolf feel safe enough to open" },
-          "PLW": { "rating": 3, "summary": "The Wonder-Keeper Pursuer gives enough space but may feel unseen over time" },
-          "PLD": { "rating": 2, "summary": "The Depth-Seeking Pursuer will feel the distance and spiral into anxiety" },
-          "PGD": { "rating": 3, "summary": "The protector grounds the Lone Wolf but may feel emotionally starved" },
-          "AGW": { "rating": 4, "summary": "Mutual independence with complementary love approaches, works well" },
-          "PGW": { "rating": 3, "summary": "The Keeper grounds without smothering, better than most Pursuer pairings" },
-          "ALD": { "rating": 2, "summary": "Two people who both pull back, can feel like emotional limbo" }
+        "id": "AP",
+        "pole_a": {
+          "letter": "A",
+          "name": "Avoidant",
+          "description": "Uncomfortable with too much closeness, values independence in love"
+        },
+        "pole_b": {
+          "letter": "P",
+          "name": "Pursuer",
+          "description": "Leans into closeness, seeks reassurance and deep bonding"
         }
       },
       {
-        "code": "ALW",
-        "name": "The Free Romantic",
-        "tagline": "Love as poetry, mystery as oxygen",
-        "description": "You love with your whole heart but you keep something sacred for yourself. You believe in the magic of the unknown in love, the excitement of a partner who still surprises you. You are emotionally generous but you will never be fully possessed, and you would not want to be.",
-        "strengths": ["Keeps love feeling alive and mysterious", "Emotionally expressive", "Preserves individuality beautifully", "Makes partners feel constantly curious"],
-        "challenges": ["Can be hard to fully know", "Partner may feel held at arm's length", "Resists total vulnerability", "May romanticize over committing to reality"],
-        "love_language": "Words of affirmation and shared experiences that feel spontaneous",
-        "needs_in_partner": [
-          "Someone who finds mystery romantic rather than frustrating",
-          "A partner who does not equate openness with love",
-          "Someone with their own rich inner world",
-          "A person who enjoys the ongoing discovery of who you are"
-        ],
-        "red_flags": [
-          "Partners who demand full transparency as proof of love",
-          "Someone who sees withheld thoughts as dishonesty",
-          "People who push relentlessly for emotional access",
-          "Partners who feel threatened by anything kept private"
-        ],
-        "growth_edge": "Sharing the unpolished, uncertain parts of yourself",
-        "famous_archetype": "The muse who is loved completely but never fully understood",
-        "compatibility": {
-          "ALD": { "rating": 5, "summary": "Two independent romantics who honor each other's need for mystery" },
-          "PGD": { "rating": 3, "summary": "The protector loves the mystery but may eventually need more access" },
-          "PLW": { "rating": 4, "summary": "Two wonder-keepers, playful and alive, though both may resist going deeper" },
-          "PLD": { "rating": 2, "summary": "The Depth-Seeker will feel permanently locked out and grow frustrated" },
-          "AGD": { "rating": 3, "summary": "Interesting tension, the Guardian is drawn to what they cannot fully reach" },
-          "AGW": { "rating": 4, "summary": "Both value independence, a refreshingly non-suffocating pairing" },
-          "PGW": { "rating": 3, "summary": "The Wonder-Keeper protector respects the mystery, decent harmony" },
-          "ALW": { "rating": 3, "summary": "Two free romantics can be electrifying but also never quite landing" }
+        "id": "LG",
+        "pole_a": {
+          "letter": "L",
+          "name": "Lover",
+          "description": "Leads with emotion, vulnerability, and romantic expression"
+        },
+        "pole_b": {
+          "letter": "G",
+          "name": "Guardian",
+          "description": "Leads with protection, stability, and practical devotion"
         }
       },
       {
-        "code": "AGD",
-        "name": "The Steadfast Protector",
-        "tagline": "Love as a shelter you build every day",
-        "description": "You love through stability, protection, and complete dedication. You are not the one with grand romantic gestures, you are the one still there ten years later when everyone else has left. You need to know your person completely to feel truly bonded.",
-        "strengths": ["Unwavering reliability", "Creates profound emotional safety", "Loves for the long haul", "Deeply invested in partner's wellbeing"],
-        "challenges": ["Can be over-protective", "Struggles when partner needs space", "Emotional expression is reserved", "Depth-seeking can feel like interrogation"],
-        "love_language": "Acts of service and deep, unhurried conversations",
-        "needs_in_partner": [
-          "Someone who values consistency and dependability over excitement",
-          "A partner who communicates openly and welcomes deep conversation",
-          "Someone who does not mistake steadiness for lack of passion",
-          "A person who appreciates being truly known over time"
-        ],
-        "red_flags": [
-          "Partners who mistake reliability for boringness",
-          "Someone who needs constant novelty to feel attracted",
-          "People who pull away when offered genuine care",
-          "Partners who are emotionally guarded or dismissive of depth"
-        ],
-        "growth_edge": "Allowing your partner to protect you sometimes",
-        "famous_archetype": "The lighthouse, always there, never dramatic about it",
-        "compatibility": {
-          "PLD": { "rating": 5, "summary": "The Depth-Seeking Pursuer finds everything they need in the Steadfast Protector" },
-          "PLW": { "rating": 4, "summary": "The Pursuer-Lover finds stability and emotional safety here" },
-          "ALD": { "rating": 4, "summary": "The Lone Wolf finally feels safe enough to let someone in" },
-          "ALW": { "rating": 3, "summary": "The Protector is drawn to the mystery but may need more access eventually" },
-          "PGD": { "rating": 3, "summary": "Two protectors can feel more like business partners than lovers" },
-          "AGW": { "rating": 3, "summary": "Compatible on independence, but the depth-difference may create distance" },
-          "PGW": { "rating": 2, "summary": "Both protect but neither goes fully deep, something always feels missing" },
-          "AGD": { "rating": 2, "summary": "Two guardians who both wait for the other to open first, emotional stalemate" }
-        }
-      },
-      {
-        "code": "AGW",
-        "name": "The Silent Devotee",
-        "tagline": "Loves completely without saying much",
-        "description": "You are deeply devoted in a quiet way that the world does not always recognize as love. You show up consistently, protect fiercely, and need your own space to stay whole. You believe love does not need to be declared loudly to be real.",
-        "strengths": ["Consistent and grounding", "Respects partner's individuality", "Non-possessive but deeply loyal", "Creates peace in a relationship"],
-        "challenges": ["Difficult to read emotionally", "Partner may feel unloved without words", "Mystery can become emotional distance", "Slow to address relationship problems"],
-        "love_language": "Acts of service and comfortable shared silence",
-        "needs_in_partner": [
-          "Someone who reads actions as love without needing constant verbal affirmation",
-          "A partner who is secure enough not to interpret quiet as coldness",
-          "Someone who values presence over performance",
-          "A person comfortable with space and independence within the relationship"
-        ],
-        "red_flags": [
-          "Partners who need frequent emotional processing conversations to feel connected",
-          "Someone who interprets silence as indifference or withdrawal",
-          "People who require verbal reassurance to trust the relationship",
-          "Partners who escalate when their bids for closeness are met with quiet"
-        ],
-        "growth_edge": "Articulating love in words, even when it feels unnecessary",
-        "famous_archetype": "The quiet partner who has always been the answer",
-        "compatibility": {
-          "ALW": { "rating": 4, "summary": "Two independent wonder-keepers, peaceful and mutually respectful" },
-          "ALD": { "rating": 4, "summary": "The Lone Wolf appreciates the non-suffocating devotion" },
-          "PGW": { "rating": 3, "summary": "Compatible energy, both grounded, but emotional expression gap may grow" },
-          "PLW": { "rating": 3, "summary": "The Wonder-Keeper Pursuer adds warmth the Silent Devotee needs" },
-          "PLD": { "rating": 2, "summary": "The Depth-Seeker will feel emotionally starved in this pairing" },
-          "PGD": { "rating": 2, "summary": "The protective depth-seeker may feel blocked at every emotional door" },
-          "AGD": { "rating": 3, "summary": "Could work if one person learns to open more, requires active effort" },
-          "AGW": { "rating": 2, "summary": "Two silent devotees can love in complete parallel without ever meeting" }
-        }
-      },
-      {
-        "code": "PLD",
-        "name": "The Soul Searcher",
-        "tagline": "Looking for someone to know completely",
-        "description": "You love with a hunger for total intimacy. You want to know every layer, every wound, every dream. For you love without depth is just company. You give everything and you need everything in return. The right person will feel like finally being understood.",
-        "strengths": ["Creates extraordinary intimacy", "Completely devoted", "Emotionally fearless", "Transforms both people in the relationship"],
-        "challenges": ["Needs too much too soon for some", "Can be overwhelming in pursuit", "Devastated by emotional unavailability", "Difficulty with casual love"],
-        "love_language": "Quality time and deep conversation without time limits",
-        "needs_in_partner": [
-          "Someone who finds total vulnerability exciting rather than terrifying",
-          "A partner who matches emotional investment with emotional investment",
-          "Someone who actively shares their inner world, fears, and history",
-          "A person who sees deep intimacy as the point of love, not a side effect"
-        ],
-        "red_flags": [
-          "Partners who label deep emotional intimacy as neediness",
-          "Someone who deflects personal questions or keeps conversations surface-level",
-          "People who are emotionally unavailable but expect loyalty in return",
-          "Partners who pull away precisely when vulnerability is offered"
-        ],
-        "growth_edge": "Allowing love to develop at different speeds for different people",
-        "famous_archetype": "The one who loves you so completely it changes you permanently",
-        "compatibility": {
-          "AGD": { "rating": 5, "summary": "The Steadfast Protector is everything the Soul Searcher has been looking for" },
-          "PGD": { "rating": 4, "summary": "Two depth-seekers, intense and profound, must watch for codependency" },
-          "PLW": { "rating": 3, "summary": "The Wonder-Keeper will frustrate the Soul Searcher but also fascinate them" },
-          "PLD": { "rating": 4, "summary": "Mutual depth, risk of losing themselves in each other" },
-          "ALD": { "rating": 2, "summary": "The Lone Wolf's distance will feel like rejection to the Soul Searcher" },
-          "ALW": { "rating": 2, "summary": "The mystery will drive the Soul Searcher to anxious pursuit" },
-          "AGW": { "rating": 2, "summary": "The silence will feel like emotional abandonment over time" },
-          "PGW": { "rating": 3, "summary": "The protector grounds the Soul Searcher but may not go deep enough" }
-        }
-      },
-      {
-        "code": "PLW",
-        "name": "The Enchanting Pursuer",
-        "tagline": "Chasing connection, preserving the magic",
-        "description": "You want closeness but you know how to keep things alive. You pursue warmly and openly but you do not need to completely consume your partner. You are the romantic who writes love letters but also respects a closed door. The perfect balance of intensity and lightness.",
-        "strengths": ["Warmly expressive without being suffocating", "Keeps relationship feeling new", "Emotionally open and accessible", "Respects partner's inner world"],
-        "challenges": ["May avoid confronting deep problems", "Wonder-keeping can become avoidance", "Can seem inconsistent in emotional depth", "Relationship stays surface-level sometimes"],
-        "love_language": "Words of affirmation and spontaneous romantic gestures",
-        "needs_in_partner": [
-          "Someone who appreciates warmth and romantic gestures without requiring total vulnerability",
-          "A partner who can receive love openly without demanding excavation",
-          "Someone emotionally available but not emotionally consuming",
-          "A person who keeps their own sense of self alive within the relationship"
-        ],
-        "red_flags": [
-          "Partners who need crisis-level emotional processing on a regular basis",
-          "Someone who treats lightheartedness as emotional avoidance",
-          "People who push the relationship into heavy territory before it is ready",
-          "Partners who interpret warmth without full disclosure as a lack of trust"
-        ],
-        "growth_edge": "Going deeper when the relationship calls for it instead of keeping it light",
-        "famous_archetype": "The partner who makes everyday life feel like a romance novel",
-        "compatibility": {
-          "AGW": { "rating": 4, "summary": "The Silent Devotee provides grounding while the Pursuer provides warmth" },
-          "AGD": { "rating": 4, "summary": "The Protector's stability balances the Pursuer's romantic energy perfectly" },
-          "ALW": { "rating": 4, "summary": "Two wonder-keepers with warmth, light and alive" },
-          "PGW": { "rating": 3, "summary": "Both keep mystery but the Pursuer's warmth fills what the Guardian lacks" },
-          "PLD": { "rating": 3, "summary": "The Soul Searcher may push for more than the Wonder-Keeper wants to give" },
-          "PGD": { "rating": 3, "summary": "The protector's stability grounds the romantic pursuer well" },
-          "ALD": { "rating": 3, "summary": "The Lone Wolf will occasionally feel just enough pulled toward the warm Pursuer" },
-          "PLW": { "rating": 3, "summary": "Two romantic wonder-keepers, fun but may never go truly deep" }
-        }
-      },
-      {
-        "code": "PGD",
-        "name": "The Devoted Guardian",
-        "tagline": "I will protect you and I need to know everything",
-        "description": "You love by wrapping people in safety and demanding full access to their world. You are not controlling, you are deeply invested. You need to feel essential to your partner and you need to feel known. When both those needs are met, you are the most loyal force on earth.",
-        "strengths": ["Profoundly loyal", "Creates total emotional safety", "Protective and nurturing simultaneously", "Committed to understanding partner completely"],
-        "challenges": ["Can become possessive", "Depth-seeking feels invasive to some", "Pursuer energy can overwhelm avoidant types", "Struggles with emotional distance"],
-        "love_language": "Acts of service and long emotional conversations",
-        "needs_in_partner": [
-          "Someone who genuinely wants to be fully known and fully cared for",
-          "A partner who welcomes protection as an act of love, not control",
-          "Someone who communicates openly and invites emotional closeness",
-          "A person who allows themselves to be supported without pushing away"
-        ],
-        "red_flags": [
-          "Partners who interpret caring behavior as controlling or suffocating",
-          "Someone who withholds themselves emotionally while accepting protection",
-          "People who see the need for depth as intrusive rather than loving",
-          "Partners who use independence to avoid emotional accountability"
-        ],
-        "growth_edge": "Trusting that love can exist without complete transparency",
-        "famous_archetype": "The one who would walk through fire for you and just needs you to tell them how you are feeling",
-        "compatibility": {
-          "PLD": { "rating": 4, "summary": "Two depth-seekers who both want to be fully known, powerful and intense" },
-          "ALD": { "rating": 3, "summary": "The Lone Wolf benefits from the protection but may feel the pursuit as pressure" },
-          "PLW": { "rating": 3, "summary": "The Wonder-Keeper brings lightness the Devoted Guardian needs" },
-          "ALW": { "rating": 3, "summary": "The mystery is magnetic but the Guardian may eventually feel locked out" },
-          "AGD": { "rating": 3, "summary": "Two guardian depth-seekers, solid but may both wait to be pursued" },
-          "PGW": { "rating": 2, "summary": "Both protect but the depth difference creates a permanent gap" },
-          "AGW": { "rating": 2, "summary": "The silent devotee cannot give the depth the Devoted Guardian craves" },
-          "PGD": { "rating": 3, "summary": "Two devoted guardians, incredible safety, risk of over-merging" }
-        }
-      },
-      {
-        "code": "PGW",
-        "name": "The Tender Keeper",
-        "tagline": "Close enough to hold you, wise enough to let you be",
-        "description": "You are the rare type who can be warmly close without needing total access. You pursue with gentleness and protect without possessing. You love people for who they are, including the parts they keep private. You are the rarest kind of safe.",
-        "strengths": ["Warmth without intensity", "Protective without possessiveness", "Emotionally grounding", "Respects mystery and closeness simultaneously"],
-        "challenges": ["May avoid conflict by maintaining pleasant distance", "Wonder-keeping can leave partner feeling unseen", "Less likely to initiate deep emotional conversations", "Comfort can mask stagnation"],
-        "love_language": "Physical touch and comfortable shared presence",
-        "needs_in_partner": [
-          "Someone who wants warmth and protection without needing to be completely decoded",
-          "A partner who feels loved through presence and care, not just conversation",
-          "Someone who appreciates gentleness as a form of strength",
-          "A person who does not mistake emotional ease for emotional shallowness"
-        ],
-        "red_flags": [
-          "Partners who interpret gentleness as a lack of passion or drive",
-          "Someone who needs intensity or emotional urgency to feel loved",
-          "People who push aggressively for deep emotional disclosure before trust is built",
-          "Partners who confuse peacefulness with avoidance"
-        ],
-        "growth_edge": "Initiating depth, not just holding space for it",
-        "famous_archetype": "The partner who somehow always knew exactly what you needed without asking",
-        "compatibility": {
-          "PLW": { "rating": 4, "summary": "The romantic pursuer brings passion, the tender keeper brings grounding" },
-          "ALD": { "rating": 4, "summary": "The Lone Wolf feels safe enough to come close without feeling trapped" },
-          "ALW": { "rating": 3, "summary": "Two wonder-keepers, comfortable but may never reach true intimacy" },
-          "AGW": { "rating": 3, "summary": "Peaceful and respectful but may become more roommates than lovers" },
-          "PLD": { "rating": 3, "summary": "The Soul Searcher needs more than the Tender Keeper naturally offers" },
-          "PGD": { "rating": 2, "summary": "The Devoted Guardian needs depth the Tender Keeper tends to avoid" },
-          "AGD": { "rating": 3, "summary": "The Steadfast Protector adds depth that completes the Tender Keeper" },
-          "PGW": { "rating": 3, "summary": "Two tender keepers, warm and comfortable, but growth requires pushing boundaries" }
+        "id": "DW",
+        "pole_a": {
+          "letter": "D",
+          "name": "Depth-Seeker",
+          "description": "Needs profound emotional intimacy and full transparency"
+        },
+        "pole_b": {
+          "letter": "W",
+          "name": "Wonder-Keeper",
+          "description": "Preserves mystery and individuality even within love"
         }
       }
-    ]
-  }
+    ],
+    "total_types": 8
+  },
+  "questions": [
+    {
+      "id": "lq1",
+      "dimension": "AP",
+      "text": "I feel most loved when someone gives me space to be independent.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq2",
+      "dimension": "AP",
+      "text": "I worry when my partner does not respond to messages for a long time.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq3",
+      "dimension": "AP",
+      "text": "I need alone time to feel like myself even in a relationship.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq4",
+      "dimension": "AP",
+      "text": "Physical and emotional closeness makes me feel secure, not smothered.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq5",
+      "dimension": "LG",
+      "text": "I express love through words, vulnerability, and emotional openness.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq6",
+      "dimension": "LG",
+      "text": "I show love by taking care of practical things so my partner does not have to.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq7",
+      "dimension": "LG",
+      "text": "I fall in love with how someone makes me feel, not just what they do.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq8",
+      "dimension": "LG",
+      "text": "I feel most loving when I can protect someone from pain or stress.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq9",
+      "dimension": "DW",
+      "text": "I want my partner to know every part of me, even the ugly parts.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq10",
+      "dimension": "DW",
+      "text": "I believe keeping some mystery alive is healthy in a long relationship.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq11",
+      "dimension": "DW",
+      "text": "I feel most connected when we have talked about our deepest fears together.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq12",
+      "dimension": "DW",
+      "text": "I value having my own inner world that even my partner does not fully access.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq13",
+      "dimension": "AP",
+      "text": "I sometimes feel like relationships ask too much of me emotionally.",
+      "pole_a_direction": true
+    },
+    {
+      "id": "lq14",
+      "dimension": "LG",
+      "text": "I remember small details about my partner and use them to make them feel seen.",
+      "pole_a_direction": false
+    },
+    {
+      "id": "lq15",
+      "dimension": "DW",
+      "text": "I am not fully satisfied in a relationship unless we have discussed our pasts completely.",
+      "pole_a_direction": true
+    }
+  ],
+  "types": [
+    {
+      "code": "ALD",
+      "name": "The Romantic Lone Wolf",
+      "tagline": "Loves deeply from a careful distance",
+      "description": "You feel love intensely but you need space to process it on your own terms. You are not cold \u2014 you are selective. When you let someone in it means something real. But you have also used independence as a shield more than once, and the people who loved you most paid the price for it.",
+      "strengths": [
+        "Emotionally authentic when you do open up",
+        "Never loses themselves in a relationship",
+        "Deeply loyal once committed",
+        "Low drama, high trust"
+      ],
+      "challenges": [
+        "You can emotionally starve a loving partner without ever realizing it",
+        "You often choose emotionally unavailable people because they feel safe \u2014 then wonder why nothing grows",
+        "When things get real, you create distance and call it needing space",
+        "You may have already let the right person walk away because closeness felt like losing yourself"
+      ],
+      "love_style": "You love quietly and from a slight remove. Your actions say more than your words, but your words rarely come. You are devoted in practice and distant in expression \u2014 and that gap is where most of your relationships break.",
+      "needs_in_partner": [
+        "Someone emotionally secure enough to not spiral when you go quiet",
+        "A partner who has their own full life and does not need you to complete it",
+        "Consistency without surveillance \u2014 they show up but do not hover",
+        "Someone who reads actions as love without needing it verbalized constantly"
+      ],
+      "red_flags": [
+        "Someone who texts you asking if you are mad after six hours of silence \u2014 this pattern does not improve with reassurance, it escalates with it",
+        "A partner who uses your need for space as proof you do not love them \u2014 that logic gets weaponized every single time you need to breathe",
+        "Anyone who says they just need to know you are there and means it every hour \u2014 no amount of love you give will feel like enough to this person",
+        "Someone who punishes distance with guilt trips, cold shoulders, or ultimatums \u2014 that is not love, that is control dressed up as insecurity",
+        "A person who mistakes your emotional independence for emotional unavailability and tries to fix it \u2014 they will spend years fixing someone who was never broken"
+      ],
+      "growth_edge": "The version of you that is still using independence as armor has cost you more than you admit. Letting someone stay close is not losing yourself \u2014 it is the only way to find out if the relationship is real.",
+      "compatibility": {
+        "ALW": {
+          "rating": 5,
+          "summary": "Two people who have their own worlds and respect each other enough not to invade them. This is the rare pairing where both people feel free and still feel loved."
+        },
+        "AGD": {
+          "rating": 4,
+          "summary": "The Protector is stable enough that you never feel smothered, and persistent enough that you slowly open. This works \u2014 but the Protector needs more depth than you naturally give."
+        },
+        "AGW": {
+          "rating": 4,
+          "summary": "Neither of you needs the other to perform love loudly. Peaceful and real. Falls apart when a crisis hits and neither of you will say the hard thing first."
+        },
+        "PLD": {
+          "rating": 2,
+          "summary": "The Soul Searcher will spend the entire relationship feeling rejected by your silences. You will spend it feeling suffocated by their need. This is the slow bleed relationship \u2014 neither person is wrong, but both people lose."
+        },
+        "PLW": {
+          "rating": 3,
+          "summary": "The lightness works at first. But eventually the Pursuer wants more closeness than you can consistently give, and they start interpreting your distance as disinterest."
+        },
+        "PGD": {
+          "rating": 1,
+          "summary": "The Devoted Guardian needs full emotional access and transparency. You will never provide that. This pairing breeds years of quiet resentment on their side and quiet guilt on yours."
+        },
+        "PGW": {
+          "rating": 3,
+          "summary": "The Tender Keeper is gentle enough not to overwhelm you. This can work if they accept that your version of closeness will always have a ceiling they cannot break through."
+        }
+      },
+      "best_matches": [
+        "ALW",
+        "AGD"
+      ],
+      "difficult_with": [
+        "PGD",
+        "PLD"
+      ]
+    },
+    {
+      "code": "ALW",
+      "name": "The Free Romantic",
+      "tagline": "Love as poetry, mystery as oxygen",
+      "description": "You love with genuine feeling but you keep something permanently yours. You are not withholding \u2014 you believe that mystery is what keeps love alive. The problem is that the people who fall hardest for you eventually need access that you will never give, and you have spent more time saying goodbye than you have staying.",
+      "strengths": [
+        "Makes love feel alive and constantly surprising",
+        "Preserves your own identity beautifully within a relationship",
+        "Emotionally warm without being consuming",
+        "Never loses the thread of who you are"
+      ],
+      "challenges": [
+        "You are often more in love with the idea of a person than the actual person in front of you",
+        "The mystery you preserve can become a permanent wall your partner never gets past",
+        "You tend to exit when real depth is required instead of leaning in",
+        "You may have romanticized keeping things unresolved because resolution felt like an ending"
+      ],
+      "love_style": "You pursue warmly and retreat gracefully. Love is an experience for you \u2014 felt deeply, shared selectively. You make people feel special in ways they struggle to explain, and you leave in ways they struggle to get over.",
+      "needs_in_partner": [
+        "Someone who finds not fully knowing you romantic rather than maddening",
+        "A partner secure enough in themselves that they do not need to decode you",
+        "Someone with their own rich inner world who is not waiting for you to fill theirs",
+        "A person who understands that your privacy is not secrecy \u2014 it is self-preservation"
+      ],
+      "red_flags": [
+        "Anyone who calls your emotional privacy a defense mechanism that needs to be dismantled \u2014 they will spend the relationship trying to fix someone who does not want to be fixed, and resenting you for it",
+        "A partner who equates openness with love and sees anything kept private as a lie \u2014 you will never win this argument and they will never stop making it",
+        "Someone who pushes relentlessly for emotional access and reframes it as helping you \u2014 that is not help, that is pressure with a kind name",
+        "People who say things like I just want to understand you completely \u2014 run. That desire is about their anxiety, not your wellbeing.",
+        "A person who cannot be happy unless they know everything \u2014 you will either perform transparency you do not feel, or leave. Neither ends well."
+      ],
+      "growth_edge": "There is a version of intimacy that does not cost you your mystery. You have not found it yet because you have left before it could exist. The unpolished, uncertain parts of yourself are not shameful \u2014 hiding them indefinitely is.",
+      "compatibility": {
+        "ALD": {
+          "rating": 5,
+          "summary": "Two people who honor each other's need for mystery without making it personal. This is quiet, real love with no performance required."
+        },
+        "AGD": {
+          "rating": 3,
+          "summary": "The Protector is fascinated by the mystery at first. Then frustrated by it. Then quietly grieving the access they will never get. A slow fade if the depth conversation never happens."
+        },
+        "AGW": {
+          "rating": 4,
+          "summary": "Two private people, both avoidant of oversharing. Peaceful and respectful. At risk of never going deep enough to weather a real storm."
+        },
+        "PLD": {
+          "rating": 1,
+          "summary": "The Soul Searcher will push for total intimacy every single day. You will retreat every single day. This relationship ends \u2014 the only variable is how much damage happens first."
+        },
+        "PLW": {
+          "rating": 4,
+          "summary": "Both warm, both wonder-keeping, both emotionally expressive without being consuming. This pairing works until one of you needs more than the other can give."
+        },
+        "PGD": {
+          "rating": 2,
+          "summary": "The Devoted Guardian will feel perpetually shut out. They need full access and you will never provide it. This creates a specific kind of relationship grief that does not resolve."
+        },
+        "PGW": {
+          "rating": 3,
+          "summary": "The Tender Keeper is gentle enough to appreciate the mystery without forcing access. Works if PGW can accept that they will never fully know you."
+        }
+      },
+      "best_matches": [
+        "ALD",
+        "PLW"
+      ],
+      "difficult_with": [
+        "PGD",
+        "PLD"
+      ]
+    },
+    {
+      "code": "AGD",
+      "name": "The Steadfast Protector",
+      "tagline": "Love as a shelter you build every day",
+      "description": "You love through reliability, protection, and a need to know someone completely. You are not the grand gesture type. You are the I remembered you mentioned that months ago and I already fixed it type. The danger is that your depth-seeking can read as interrogation, your protection as control, and your steadiness as boring \u2014 and some people will take advantage of your care without ever matching it.",
+      "strengths": [
+        "Unwavering reliability that most people only dream of finding",
+        "Creates profound emotional safety for a partner who allows it",
+        "Loves with the long haul in mind \u2014 not just the feeling",
+        "Remembers everything, shows up for everything"
+      ],
+      "challenges": [
+        "Your depth-seeking can turn into interrogation before you notice the shift",
+        "You can become subtly controlling under the guise of caring and protecting",
+        "You struggle to be vulnerable yourself while expecting full access from a partner",
+        "You have stayed in relationships long past the point of return because leaving felt like failure"
+      ],
+      "love_style": "You love by creating safety and demanding entry. You protect fiercely and want to be known completely. That combination is either the most profound love someone has ever felt \u2014 or the most suffocating, depending entirely on who receives it.",
+      "needs_in_partner": [
+        "Someone who wants to be fully known and does not treat that as intrusive",
+        "A partner who communicates openly and welcomes the depth you offer",
+        "Someone stable enough that your steadiness feels like love, not boredom",
+        "A person who lets themselves be protected without pushing the protection away"
+      ],
+      "red_flags": [
+        "Someone emotionally unavailable who accepts your care without offering their inner world in return \u2014 that is emotional theft and you will rationalize it as a project for years",
+        "A person who calls your need for depth controlling \u2014 if you need to know someone and they refuse to be known, that is incompatibility, not a flaw in you",
+        "Anyone who gets bored by reliability and starts chasing novelty inside the relationship \u2014 that restlessness will find reasons to leave no matter how much you give",
+        "Partners who use your patience as a guarantee \u2014 they know you will stay so they never have to try",
+        "Someone who pulls away the moment you offer real depth \u2014 if vulnerability scares them at the start, it will terrify them later"
+      ],
+      "growth_edge": "You give extraordinary love but you have built a wall between giving it and receiving it. The question is not how much more you can protect someone \u2014 it is whether you can let someone protect you back.",
+      "compatibility": {
+        "ALD": {
+          "rating": 4,
+          "summary": "Your stability helps the Lone Wolf open slowly. Requires patience you have \u2014 but they may never reach the depth you need."
+        },
+        "ALW": {
+          "rating": 3,
+          "summary": "The mystery draws you in. The permanent mystery eventually defeats you. You need depth, and the Free Romantic guards their inner world forever."
+        },
+        "AGW": {
+          "rating": 3,
+          "summary": "Two avoidant people who both lead with protection. Stable but potentially emotionally flat. Neither will push for depth, which is what you actually need."
+        },
+        "PLD": {
+          "rating": 5,
+          "summary": "The Soul Searcher needs exactly what you offer: safety, steadiness, and depth. You need someone who wants to be completely known. This is the best match either of you will find."
+        },
+        "PLW": {
+          "rating": 4,
+          "summary": "The Pursuer's warmth softens your seriousness. Your stability gives them the ground they sometimes need. Works well if PLW eventually lets you go deeper."
+        },
+        "PGD": {
+          "rating": 3,
+          "summary": "Two guardians who both want depth and protection. The question is who goes first. Both are avoidant in different ways. Can stall into a comfortable but emotionally unfulfilling standoff."
+        },
+        "PGW": {
+          "rating": 4,
+          "summary": "The Tender Keeper's warmth balances your intensity. They bring lightness you need. You bring seriousness they respect. A genuinely complementary pairing."
+        }
+      },
+      "best_matches": [
+        "PLD",
+        "PGW"
+      ],
+      "difficult_with": [
+        "ALW",
+        "AGW"
+      ]
+    },
+    {
+      "code": "AGW",
+      "name": "The Silent Devotee",
+      "tagline": "Loves completely without saying much",
+      "description": "You are deeply devoted in a way the world does not always recognize as love. You show up consistently, remember quietly, and protect without announcement. The cost is that your partner spends years wondering where they stand, not because you are absent but because you will not say the words. Silence is not cruelty \u2014 but it has the same effect when someone needed to hear something and you never said it.",
+      "strengths": [
+        "Consistent and grounding in a way that is genuinely rare",
+        "Respects a partner's independence without resentment",
+        "Non-possessive but completely loyal",
+        "Creates a peaceful, low-pressure relationship environment"
+      ],
+      "challenges": [
+        "Problems fester in your silence until they become unsolvable",
+        "Your partner spends years guessing whether they are loved enough \u2014 that uncertainty is a form of emotional abandonment",
+        "You withdraw instead of fight, which means conflicts never resolve",
+        "You have let relationships end that you could have saved simply by saying something"
+      ],
+      "love_style": "You love through presence and action, never performance. You are there before someone asks and you stay without needing credit for it. But you have also watched people walk away confused about why you never just said it.",
+      "needs_in_partner": [
+        "Someone who reads actions as love without needing constant verbal confirmation",
+        "A partner secure enough that your quiet does not read as indifference",
+        "Someone with enough self-assurance to not spiral during your silences",
+        "A person who does not perform their feelings and does not need you to perform yours"
+      ],
+      "red_flags": [
+        "Anyone who needs daily verbal affirmation to feel secure \u2014 your silence will become their evidence that something is wrong, and no amount of showing up fixes the anxiety you are not willing to talk through",
+        "A partner who interprets your quiet as coldness and escalates emotionally to get a reaction \u2014 they are looking for drama and your silence will fuel it",
+        "Someone who cannot handle uncertainty in a relationship \u2014 your emotional privacy will be permanent uncertainty for them and they will eventually either leave or make the relationship a constant negotiation",
+        "People who say I never know what you are thinking and mean it as an ultimatum \u2014 if that is where it starts, it never ends",
+        "A partner who needs you to process out loud regularly as a sign of emotional investment \u2014 you will fake it or withdraw and either way the relationship suffers"
+      ],
+      "growth_edge": "Being known is not losing your privacy. The people you love most have needed to hear things you have never said. The silence that feels protective to you has felt like abandonment to them. Saying one hard thing at the right moment would have changed everything.",
+      "compatibility": {
+        "ALD": {
+          "rating": 4,
+          "summary": "Both avoidant, both non-verbal about love. No pressure, no performance. Collapses in a real crisis when neither will say the hard thing first."
+        },
+        "ALW": {
+          "rating": 4,
+          "summary": "Two private people who respect each other's inner world. Peaceful almost to a fault. The relationship may never go deep enough to be truly resilient."
+        },
+        "AGD": {
+          "rating": 3,
+          "summary": "Two avoidant guardians. Stable and reliable but potentially emotionally flat. No one is pushing for depth here and the relationship can quietly drift."
+        },
+        "PLD": {
+          "rating": 1,
+          "summary": "The Soul Searcher needs total emotional transparency. You will never provide it. They will feel emotionally starved for the entire relationship and blame themselves for it. Do not do this to them."
+        },
+        "PLW": {
+          "rating": 3,
+          "summary": "The lightness works. Both of you keep the emotional register manageable. Risk is that neither pushes for the depth that would make the relationship last."
+        },
+        "PGD": {
+          "rating": 2,
+          "summary": "The Devoted Guardian needs full access to your inner world. You guard it permanently. This becomes a specific, grinding resentment that quietly poisons the relationship."
+        },
+        "PGW": {
+          "rating": 3,
+          "summary": "Both grounded, both warm in quiet ways. Works if PGW accepts that you will never initiate depth. Falls apart if PGW eventually needs more."
+        }
+      },
+      "best_matches": [
+        "ALD",
+        "ALW"
+      ],
+      "difficult_with": [
+        "PLD",
+        "PGD"
+      ]
+    },
+    {
+      "code": "PLD",
+      "name": "The Soul Searcher",
+      "tagline": "Looking for someone to know completely",
+      "description": "You love with a hunger for total intimacy. You want every layer, every wound, every dream. For you, love without depth is not love \u2014 it is company. The problem is that your intensity scares exactly the type of people you keep choosing, and you have spent more time chasing emotional access from unavailable people than you have actually being loved.",
+      "strengths": [
+        "Creates levels of intimacy most relationships never reach",
+        "Completely devoted and emotionally fearless",
+        "Transforms both people in the relationship when it works",
+        "Never lets a relationship coast \u2014 always pushing for something real"
+      ],
+      "challenges": [
+        "Your pursuit of depth can feel like an emotional audit to someone not ready for it",
+        "You are unconsciously attracted to emotionally unavailable people \u2014 and you call it a challenge worth taking on",
+        "When you feel emotionally starved, you push harder, which drives the person further away",
+        "You have turned your own pain into a personality and called it depth"
+      ],
+      "love_style": "You dive. You ask the question no one else asks on the second date. You want someone to sit with you in the hard things and come back. When it works, it is the most profound love either person has felt. When it does not, it is devastating \u2014 for both of you.",
+      "needs_in_partner": [
+        "Someone who finds total vulnerability exciting rather than threatening",
+        "A partner who actively shares their inner world without needing to be excavated",
+        "Someone who sees emotional intensity as the point of love, not a symptom of neediness",
+        "A person stable enough to hold space for your depth without flinching"
+      ],
+      "red_flags": [
+        "Emotionally unavailable people who find you interesting \u2014 they will not change, they never do, and you have already tried this and it cost you something real",
+        "Someone who deflects personal questions with humor, sarcasm, or a subject change \u2014 this is not charm, it is a preview of how every important conversation will go",
+        "A partner who uses the word deep as a negative \u2014 if they are threatened by your desire for emotional intimacy, this relationship will break you slowly",
+        "Anyone who says you are too much \u2014 that is not feedback, that is incompatibility, and the right person will never say it",
+        "People who are emotionally unavailable but expect loyalty and commitment in return \u2014 that is a one-sided contract and you will honor it far longer than you should"
+      ],
+      "growth_edge": "You do not have a depth problem. You have a selection problem. You have consistently chosen people who cannot give you what you need and spent years trying to earn access from them. The intensity you bring is not the issue \u2014 the people you have been bringing it to are.",
+      "compatibility": {
+        "ALD": {
+          "rating": 2,
+          "summary": "The Lone Wolf's distance will read as rejection every single day. You will push. They will retreat. This is a relationship where you do all the emotional labor and leave depleted."
+        },
+        "ALW": {
+          "rating": 1,
+          "summary": "The Free Romantic will never give you total intimacy \u2014 ever. You will spend the entire relationship trying to break through a wall they have no intention of removing. This is the relationship that breaks you."
+        },
+        "AGD": {
+          "rating": 5,
+          "summary": "The Steadfast Protector is stable, depth-seeking, and loyal. They will open slowly \u2014 but they will open. This is the relationship you have been looking for."
+        },
+        "AGW": {
+          "rating": 1,
+          "summary": "The Silent Devotee shows love through action and never through words. You need words, depth, and transparency. You will feel emotionally starved the entire relationship and blame yourself for it."
+        },
+        "PLW": {
+          "rating": 3,
+          "summary": "The Pursuer keeps things warmer but lighter than you need. You will push for depth they resist. They will charm you out of your frustration. The cycle repeats."
+        },
+        "PGD": {
+          "rating": 4,
+          "summary": "Two people who want to be completely known. Profound when it works \u2014 can become codependent when it does not. The intensity is real and so is the risk."
+        },
+        "PGW": {
+          "rating": 2,
+          "summary": "The Tender Keeper cannot match your intensity and will eventually feel exhausted by it. You will feel perpetually unsatisfied. Both of you deserve something closer to what you actually need."
+        }
+      },
+      "best_matches": [
+        "AGD",
+        "PGD"
+      ],
+      "difficult_with": [
+        "ALW",
+        "AGW"
+      ]
+    },
+    {
+      "code": "PLW",
+      "name": "The Enchanting Pursuer",
+      "tagline": "Chasing connection, preserving the magic",
+      "description": "You want closeness but you know how to keep things electric. You are warm, expressive, and genuinely good at making people feel wanted. You also use that warmth to stay at the surface when the deeper conversation arrives. You are the person who is great at relationships right up until they require something uncomfortable \u2014 and then you make it light again instead of going through it.",
+      "strengths": [
+        "Makes people feel genuinely seen and wanted",
+        "Keeps the relationship feeling alive and new",
+        "Emotionally accessible without being consuming",
+        "Brings warmth and energy without demanding it back at the same level"
+      ],
+      "challenges": [
+        "You use charm to exit hard conversations before they finish",
+        "Your relationships stay in an extended early stage because you resist the shift into real depth",
+        "You are better at pursuing than staying \u2014 once the chase is over you get restless",
+        "You have called avoidance wonder-keeping and romance for long enough that you believe it yourself"
+      ],
+      "love_style": "You pursue openly and love warmly. You make the relationship feel like a constant discovery. The cost is that nothing ever fully resolves \u2014 the hard things get softened away, the depth never quite lands, and partners eventually realize they have been charmed but not truly known.",
+      "needs_in_partner": [
+        "Someone who appreciates warmth and romantic energy without demanding total vulnerability in return",
+        "A partner emotionally available but not emotionally consuming",
+        "Someone who keeps their own identity alive within the relationship",
+        "A person who can receive love openly without treating it as an invitation to excavate"
+      ],
+      "red_flags": [
+        "Someone who needs to process every relationship moment at a deep emotional level regularly \u2014 your capacity for this is limited and their need is not, which creates a permanent imbalance",
+        "A partner who interprets your lightness as emotional immaturity and tries to fix it \u2014 they are looking for someone who does not exist inside you",
+        "Anyone who escalates the emotional register constantly in order to feel close \u2014 that urgency is not passion, it is anxiety, and it will exhaust both of you",
+        "People who confuse warmth with permission for total access \u2014 you can be warm and still have limits and the right person understands that distinction",
+        "A partner who needs the relationship to be serious all the time \u2014 seriousness is not depth, and pressure is not intimacy"
+      ],
+      "growth_edge": "There is a difference between keeping things light and keeping them shallow. You have been in that gray area for most of your relationships. Going deeper when the relationship actually calls for it is not losing the magic \u2014 it is whether the magic is real.",
+      "compatibility": {
+        "ALD": {
+          "rating": 3,
+          "summary": "The Lone Wolf appreciates your lightness. But eventually you want closeness they cannot give consistently. You will feel the ceiling."
+        },
+        "ALW": {
+          "rating": 4,
+          "summary": "Two wonder-keepers who love warmly without making it heavy. Genuinely works. Risk is that neither of you ever pushes for the depth that makes a relationship last through hard things."
+        },
+        "AGD": {
+          "rating": 4,
+          "summary": "Your warmth softens the Protector's intensity. Their stability grounds your restlessness. One of the better pairings for both of you when it works."
+        },
+        "AGW": {
+          "rating": 3,
+          "summary": "Two people who keep the emotional register low. Peaceful. But no one is pushing for depth here and the relationship can stay pleasant while slowly hollowing out."
+        },
+        "PLD": {
+          "rating": 3,
+          "summary": "The Soul Searcher will push for more depth than you naturally give. You will charm them out of their frustration temporarily. The cycle repeats until someone leaves tired."
+        },
+        "PGD": {
+          "rating": 3,
+          "summary": "The Devoted Guardian wants full access. You keep things lighter than they need. You will feel pressured. They will feel shut out. Both of you will slowly stop trying."
+        },
+        "PGW": {
+          "rating": 4,
+          "summary": "Both warm, both pursuers, different depths. Genuinely complementary. PGW brings gentleness, you bring energy. This pairing works well."
+        }
+      },
+      "best_matches": [
+        "ALW",
+        "PGW"
+      ],
+      "difficult_with": [
+        "PLD",
+        "PGD"
+      ]
+    },
+    {
+      "code": "PGD",
+      "name": "The Devoted Guardian",
+      "tagline": "I will protect you and I need to know everything",
+      "description": "You love by wrapping people in safety and needing full access to their world. You are not controlling \u2014 you are deeply invested. But the line between those two things is thinner than you think, and people you have loved will sometimes use the word controlling even when you believe you were just caring. The need to know everything, even when it comes from love, can feel like surveillance to someone who has not chosen that level of intimacy.",
+      "strengths": [
+        "Creates profound security for a partner who wants to be fully held",
+        "Completely devoted \u2014 your commitment is not conditional",
+        "Notices everything and acts on it without being asked",
+        "Love is a verb for you \u2014 always active, never passive"
+      ],
+      "challenges": [
+        "The need for full emotional transparency IS a form of control, even when it comes from genuine love",
+        "You can become possessive without recognizing the shift",
+        "You have stayed in relationships where you gave everything and received very little and called it loyalty",
+        "When you feel emotionally shut out you become anxious in ways that push people further away"
+      ],
+      "love_style": "You love by pursuing completely and protecting fiercely. You want your partner's inner world and you offer yours without reservation. When this lands with the right person it is extraordinary. When it does not, it becomes a relationship built on one person's total investment and the other's polite tolerance.",
+      "needs_in_partner": [
+        "Someone who genuinely wants to be fully known and finds that liberating rather than invasive",
+        "A partner who welcomes protection as love rather than reframing it as control",
+        "Someone who offers their inner world openly and does not make you extract it",
+        "A person who matches your emotional investment rather than accepting it passively"
+      ],
+      "red_flags": [
+        "Anyone who accepts your full devotion while keeping their inner world private \u2014 that imbalance will eventually become intolerable and they are banking on your loyalty to delay the conversation",
+        "A partner who reframes your protectiveness as controlling whenever it is convenient for them \u2014 they are using your love as leverage",
+        "Someone who is emotionally guarded but claims they want depth \u2014 people who want depth do not hide from it",
+        "Partners who need independence as a shield rather than a genuine preference \u2014 they are not avoidant, they are unavailable, and the distinction matters",
+        "Anyone who makes you feel like your investment is the problem \u2014 the problem is not that you love fully, it is that you chose someone who cannot meet it"
+      ],
+      "growth_edge": "You can love someone completely and still not need to know every thought they have. Learning to trust without requiring total transparency is not settling for less \u2014 it is the difference between intimacy and interrogation. The right person will give you access willingly. You should not have to extract it.",
+      "compatibility": {
+        "ALD": {
+          "rating": 1,
+          "summary": "The Lone Wolf will never give you full emotional access. You will feel perpetually shut out. This specific combination breeds a slow, grinding resentment that does not resolve."
+        },
+        "ALW": {
+          "rating": 2,
+          "summary": "The Free Romantic guards their mystery permanently. You need full access. This is a relationship where you feel grief for the access you will never receive and they feel pressure they never signed up for."
+        },
+        "AGD": {
+          "rating": 3,
+          "summary": "Two guardians who both want depth. Both avoidant. The question is who opens first. Can stall into a stable but emotionally hollow arrangement."
+        },
+        "AGW": {
+          "rating": 2,
+          "summary": "The Silent Devotee will never give you the emotional transparency you need. Their silence will read as rejection to you. This quietly breaks down over time."
+        },
+        "PLD": {
+          "rating": 4,
+          "summary": "Two depth-seekers who both want to be fully known. Can be extraordinary. Can also become codependent. The intensity is real and so is the potential."
+        },
+        "PLW": {
+          "rating": 3,
+          "summary": "The Pursuer is warm but lighter than you need. You will want more depth. They will charm the edges off your frustration. Eventually both of you want something you are not getting."
+        },
+        "PGW": {
+          "rating": 3,
+          "summary": "Both guardians and pursuers. Compatible energy, but PGW will not give you the depth you need. You will feel a ceiling you cannot break through."
+        }
+      },
+      "best_matches": [
+        "PLD",
+        "AGD"
+      ],
+      "difficult_with": [
+        "ALD",
+        "ALW"
+      ]
+    },
+    {
+      "code": "PGW",
+      "name": "The Tender Keeper",
+      "tagline": "Close enough to hold you, wise enough to let you be",
+      "description": "You are the rare type who can be warmly close without needing total access. You pursue with gentleness and protect without pressure. You make relationships feel safe and low-stakes in the best way. The cost is that hard conversations get avoided, problems accumulate under the surface peace, and the relationship can feel healthy right up until it is not \u2014 because you never said anything.",
+      "strengths": [
+        "Creates emotional safety without suffocation",
+        "Pursues warmly without making it feel like pressure",
+        "Respects a partner's autonomy while staying genuinely close",
+        "Makes love feel effortless and uncomplicated"
+      ],
+      "challenges": [
+        "You avoid confrontation so effectively that real problems never get addressed",
+        "The peace you maintain is sometimes just avoidance with better branding",
+        "You can be in a failing relationship for months and still tell yourself it is fine",
+        "Your gentleness can be mistaken for passivity and people will take advantage of it"
+      ],
+      "love_style": "You love by creating warmth and holding space. You are there without being heavy. You protect without possessing. Partners feel genuinely comfortable with you in ways they struggle to describe. The shadow side is that your comfort-keeping means nothing uncomfortable ever gets fully resolved.",
+      "needs_in_partner": [
+        "Someone who wants warmth and closeness without needing to be completely decoded",
+        "A partner who feels loved through presence and care rather than constant conversation about the relationship",
+        "Someone who appreciates gentleness and does not mistake it for emotional immaturity",
+        "A person who does not need you to perform emotional intensity to prove you care"
+      ],
+      "red_flags": [
+        "Someone who needs emotional intensity and urgency to feel loved \u2014 your gentleness will always feel like not enough to them, and that is not a problem you can solve",
+        "A partner who mistakes your emotional ease for shallowness and pushes you to prove your depth \u2014 the pushing itself is the problem",
+        "Anyone who creates drama to test your love \u2014 that behavior is a pattern, not a phase, and your patience will keep funding it",
+        "People who call your conflict-avoidance a character flaw while never examining why they need conflict to feel engaged \u2014 that dynamic will slowly make you feel broken for being calm",
+        "A partner who confuses peacefulness with the absence of feeling \u2014 you have deep feelings, you just do not weaponize them, and the right person understands the difference"
+      ],
+      "growth_edge": "The relationship that looks peaceful from the outside is sometimes dying quietly from the inside. You have let things go that deserved to be said. Initiating the hard conversation when it matters is not causing a problem \u2014 it is the only way to prevent a bigger one.",
+      "compatibility": {
+        "ALD": {
+          "rating": 3,
+          "summary": "Gentle enough not to overwhelm the Lone Wolf. But you will eventually want closeness they cannot consistently give. The ceiling is real."
+        },
+        "ALW": {
+          "rating": 3,
+          "summary": "You appreciate the mystery without forcing access. Works if you can accept never fully knowing them. Many people cannot, eventually."
+        },
+        "AGD": {
+          "rating": 4,
+          "summary": "Your warmth balances their intensity. Their depth challenges your tendency to stay light. One of the better pairings for both of you."
+        },
+        "AGW": {
+          "rating": 3,
+          "summary": "Both grounded and non-dramatic. Works well. Also means neither of you pushes for depth, which leaves the relationship pleasant but possibly hollow over time."
+        },
+        "PLD": {
+          "rating": 2,
+          "summary": "The Soul Searcher's intensity will exhaust you. You will feel like you are never enough for them. They will feel perpetually starved. Both people lose in this pairing."
+        },
+        "PLW": {
+          "rating": 4,
+          "summary": "Both warm, both pursuers, genuinely complementary energy. PLW brings restless charm, you bring steadiness. Works well for both."
+        },
+        "PGD": {
+          "rating": 3,
+          "summary": "The Devoted Guardian will want more depth than you naturally provide. You will feel their reaching as pressure. The gap does not close."
+        }
+      },
+      "best_matches": [
+        "AGD",
+        "PLW"
+      ],
+      "difficult_with": [
+        "PLD",
+        "PGD"
+      ]
+    }
+  ]
+}
