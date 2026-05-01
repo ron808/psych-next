@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import type { PsychType, ModuleKind, ArchetypeObj } from '@/lib/types';
 import { strVal } from '@/lib/scoring';
-import { ShareIcon, CheckIcon, PawIcon, ZapIcon, SparkleIcon, WavesIcon, HeartIcon, UsersIcon, WorkIcon, DramaIcon, GridIcon, CrownIcon, StarIcon } from '@/lib/icons';
+import { ShareIcon, CheckIcon, CloseIcon, PawIcon, ZapIcon, SparkleIcon, WavesIcon, HeartIcon, UsersIcon, WorkIcon, DramaIcon, GridIcon, CrownIcon, StarIcon } from '@/lib/icons';
 import { InViewFade, FadeUp, ScaleIn } from './motion';
 
 /* ── helpers ────────────────────────────────────────────────── */
@@ -193,8 +193,8 @@ export default function ResultCard({ type, moduleKind }: { type: PsychType; modu
               <div>
                 <SectionTitle>Compatibility</SectionTitle>
                 <div className="compat-grid">
-                  {good.map(c  => <span key={c} className="compat-tag good">✦ {c}</span>)}
-                  {watch.map(c => <span key={c} className="compat-tag watch">⚡ {c}</span>)}
+                  {good.map(c  => <span key={c} className="compat-tag good"><CheckIcon size={11} />{c}</span>)}
+                  {watch.map(c => <span key={c} className="compat-tag watch"><CloseIcon size={11} />{c}</span>)}
                 </div>
               </div>
             </InViewFade>

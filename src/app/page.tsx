@@ -129,8 +129,8 @@ export default function Home() {
               </FadeUp>
               <FadeUp delay={0.55}>
                 <div className="home-hero-cta">
-                  <Link href="/modules/disney" className="btn btn-primary home-btn-hero home-btn-disney">
-                    Find Your Character <ArrowRight size={16} />
+                  <Link href="#modules" className="btn btn-primary home-btn-hero">
+                    Begin your journey <ArrowRight size={16} />
                   </Link>
                   <Link href="/types" className="btn btn-ghost" style={{ display: 'inline-flex', gap: 7, alignItems: 'center' }}>
                     <GridIcon size={14} /> Browse all types
@@ -171,7 +171,7 @@ export default function Home() {
         </div>
 
         {/* ── Module cards ── */}
-        <main className="container">
+        <main className="container" id="modules" style={{ scrollMarginTop: 80 }}>
 
           {/* Disney featured full-width card */}
           <FadeUp delay={0.1}>
