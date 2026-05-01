@@ -383,12 +383,18 @@ ul, ol { list-style: none; }
 }
 
 /* The animated headline accent — replaces the yellow "Yourself." */
-.home-h1-grad {
+/* Apply gradient to descendant spans too, since framer-motion wraps each
+   word in a transformed inline-block, which breaks parent background-clip. */
+.home-h1-grad,
+.home-h1-grad span {
   background: linear-gradient(120deg, #C084FC 0%, #F472B6 45%, #818CF8 90%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
+}
+.home-h1-grad {
   animation: shimmer 7s ease-in-out infinite;
 }
 @keyframes shimmer {
