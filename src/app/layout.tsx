@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Playfair_Display, DM_Sans, Space_Mono } from 'next/font/google';
 import './globals.css';
+import CursorStar from '@/components/CursorStar';
 
 const playfair = Playfair_Display({
   variable: '--font-head-var',
@@ -71,7 +72,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${spaceMono.variable}`}>
-      <body>{children}</body>
+      <body>
+        <CursorStar />
+        {children}
+      </body>
     </html>
   );
 }

@@ -3,6 +3,16 @@
    Refined for a cohesive, space-themed, first-class experience.
    ═══════════════════════════════════════════════════════════════ */
 
+/* Custom star cursor — hide system cursor everywhere when active.
+   Class is applied to <html> by the CursorStar component, so it
+   only kicks in for hover-capable, motion-allowing devices. */
+html.cursor-star-on,
+html.cursor-star-on * { cursor: none !important; }
+/* Always restore for text inputs so people can actually type. */
+html.cursor-star-on input,
+html.cursor-star-on textarea,
+html.cursor-star-on [contenteditable="true"] { cursor: text !important; }
+
 /* ─── Tokens ────────────────────────────────────────────────── */
 :root {
   /* surface */
