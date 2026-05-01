@@ -141,7 +141,7 @@ export default function ResultCard({ type, moduleKind }: { type: PsychType; modu
   const watch = (moduleKind !== 'love' ? (type.friction_with ?? type.difficult_with ?? []) : []) as string[];
 
   function share() {
-    const text = `I got ${type.code} — ${type.name} on PSYCH.SITE\n"${type.tagline ?? ''}"\n\nDiscover yours at psych.site`;
+    const text = `I got ${type.code} — ${type.name} on PSYCH.SITE\n"${type.tagline ?? ''}"\n\nDiscover yours at https://psych-site.rohitnaidusiriporam.com/`;
     navigator.clipboard?.writeText(text).then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000); })
       .catch(() => prompt('Copy your result:', text));
   }
